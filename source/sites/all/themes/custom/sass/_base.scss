@@ -68,19 +68,31 @@ $tahoma:          Tahoma, Verdana, "DejaVu Sans", sans-serif;
 $helvetica:       Helvetica, Arial, "Nimbus Sans L", sans-serif;
 $arial:           Arial, Helvetica, "Nimbus Sans L", sans-serif;
 
+$adobeCaslonProSemiBold: 'adobe_caslon_probold';
+$adobeCaslonProItalic: 'adobe_caslon_proitalic';
+$adobeCaslonProRegular: 'adobe_caslon_proregular';
+$dkWayang: 'dk_wayangregular';
+$NewsGothicMTRegular: $verdana;
 // For an explanation of why "sans-serif" is at the end of this list, see
 // http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/
 $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
 
 // Now create some variables for the font stacks we want to use on this site.
 $base-font-family: $verdana; // The font family set on the html element.
-$font-body:        $verdana;
+$font-body:        $NewsGothicMTRegular;
 $font-monospace:   $courier;
+$menuFont: $adobeCaslonProSemiBold;
+//$titulos:
+//$subtitulos:
 
-
+//
 //
 // Colors, etc.
 //
+$textosIntro: #3E3D3E;
+$textosGenerales:#61565A;
+$amarillo: #FFBA00;
+
 
 // The amount lists, blockquotes and comments are indented.
 $indent-amount: 30px;
