@@ -74,12 +74,20 @@ body {
 
   .contact_info{
     padding-top: 38px;
+    text-align: right;
     .social {
       float: right;
+      margin-bottom: 12px;
       a{
         display: block;
         float:left;
         margin-left: 6px;
+      }
+    }
+    .info{
+      clear:both;
+      p{
+        margin: 0 0 24px 0;
       }
     }
 

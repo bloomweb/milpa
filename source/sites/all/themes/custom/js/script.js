@@ -15,5 +15,7 @@
 
 // Place your code here.
 
-
+$(function(){
+    $("#main-menu li:not(.last)").append("<span class='divider sprite sprite-gray_perpendicular_lin'></span>");
+});
 })(jQuery, Drupal, this, this.document);

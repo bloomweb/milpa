@@ -28,6 +28,18 @@
                 <a target="_blank" class="sprite sprite-linked_in_icon" href="#"></a>
                 <div style="clear:both;float:none;"></div>
             </div>
+            <div class="info">
+                <p>
+                    ave. 2da oeste # 10 -130 <br />
+                    edificio tempo &middot; ofic. 801<br />
+                    santa rita &middot; cali &middot; colombia<br />
+                </p>
+                <p>
+                    <a href="mailto:hola@milpaestudio.com">hola@milpaestudio.com</a><br />
+                    t (+57) 312 795 8233
+
+                </p>
+            </div>
 
         </div>
         <div style="clear:both;float:none;"></div>
@@ -61,7 +73,7 @@
         <div id="navigation">
 
             <?php if ($main_menu): ?>
-                <nav id="main-menu" role="navigation" tabindex="-1">
+                <nav id="main-menu" class="sprite sprite-menu_borders" role="navigation" tabindex="-1">
                     <?php
                     // This code snippet is hard to modify. We recommend turning off the
                     // "Main menu" on your sub-theme's settings form, deleting this PHP

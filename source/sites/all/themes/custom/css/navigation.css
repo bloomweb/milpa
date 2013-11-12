@@ -35,7 +35,7 @@ ul li.leaf {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000339}}
 li a.active {
-  color: #000;
+  color: #61565a;
 }
 
 /*
@@ -74,7 +74,7 @@ li a.active {
   /* A simple method to get navigation links to appear in one line. */
   float: left;
   /* LTR */
-  padding: 0 10px 0 0;
+  padding: 0;
   /* LTR */
   list-style-type: none;
   list-style-image: none;
@@ -83,7 +83,37 @@ li a.active {
 /*
  * Main menu and Secondary menu links
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000381}}
+#main-menu {
+  margin: 0 auto;
+  line-height: 51px;
+  vertical-align: middle;
+  text-transform: lowercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000387}}
+#main-menu a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "adobe_caslon_prosemibold";
+  padding-left: 7px;
+  padding-right: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000394}}
+#main-menu .last a {
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000397}}
+#main-menu .first a {
+  padding-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003101}}
+#main-menu span.divider {
+  display: block;
+  float: right;
+  margin-top: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003108}}
 #secondary-menu {
   float: right;
   /* LTR */
