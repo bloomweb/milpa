@@ -17,9 +17,11 @@
 body {
   margin: 0;
   padding: 0;
+  color: $textosGenerales;
 }
 
 #page {
+  border: 1px solid black;
 }
 
 /*
@@ -37,7 +39,7 @@ body {
     padding: 2px 0 3px 0;
     text-align: center;
     background-color: #666;
-    color: #fff;
+    color: $textosGenerales;
   }
 }
 
@@ -46,17 +48,46 @@ body {
  */
 
 #header {
-}
-
-#logo { /* Wrapping link for logo */
-  float: left; /* LTR */
-  margin: 0;
-  padding: 0;
-
-  img {
-    vertical-align: bottom;
+  padding-bottom: 52px;
+  > div{
+    float:left;
+    width: 33%;
+    margin: 0;
+    padding: 0;
   }
+  .logo-wrapper{
+
+  }
+  #logo { /* Wrapping link for logo */
+    display: block;
+    float: left; /* LTR */
+    margin-left: 27px;
+    margin-top: 48px;
+  }
+
+  .garden-tools{
+    padding-top: 32px;
+    .sprite{
+      margin: 0 auto;
+    }
+  }
+
+  .contact_info{
+    padding-top: 38px;
+    .social {
+      float: right;
+      a{
+        display: block;
+        float:left;
+        margin-left: 6px;
+      }
+    }
+
+  }
+
 }
+
+
 
 #name-and-slogan { /* Wrapper for website name and slogan */
   float: left;
@@ -69,7 +100,7 @@ body {
 
   a:link,
   a:visited {
-    color: #000;
+    color: $textosGenerales;
     text-decoration: none;
   }
 
@@ -125,6 +156,11 @@ h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
 h3.title { /* Comment title */
   margin: 0;
+  font-size:19px;
+ /* font-family: 'News Gothic MT W01 Bold'; */
+}
+h2.subtitle{
+  font-size:19px;
 }
 
 tr.even { /* Some tables have rows marked even or odd. */

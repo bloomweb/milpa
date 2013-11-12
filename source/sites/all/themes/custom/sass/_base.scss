@@ -37,7 +37,7 @@ $legacy-support-for-ie8: true;
 // use in the normalize.scss file.
 // @see http://compass-style.org/reference/compass/typography/vertical_rhythm/
 
-$base-font-size:   16px; // The font size set on the root html element.
+$base-font-size:   13px; // The font size set on the root html element.
 $base-line-height: 24px; // This line-height determines the basic unit of vertical rhythm.
 
 $h1-font-size: 2    * $base-font-size;
@@ -72,13 +72,21 @@ $adobeCaslonProSemiBold: 'adobe_caslon_probold';
 $adobeCaslonProItalic: 'adobe_caslon_proitalic';
 $adobeCaslonProRegular: 'adobe_caslon_proregular';
 $dkWayang: 'dk_wayangregular';
-$NewsGothicMTRegular: $verdana;
+$NewsGothicMTRegular: 'News Gothic MT W01';
+
+/*font-family:'News Gothic MT W01';
+font-family:'NewsGothicMTW01-Italic';
+font-family:'News Gothic MT W01 Bold';
+font-family:'NewsGothicMTW01-BoldIta';
+font-family:'NewsGothicMTW01-Condens';
+font-family:'NewsGothicMTW01-BoldCon';*/
+
 // For an explanation of why "sans-serif" is at the end of this list, see
 // http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/
 $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
 
 // Now create some variables for the font stacks we want to use on this site.
-$base-font-family: $verdana; // The font family set on the html element.
+$base-font-family: $NewsGothicMTRegular; // The font family set on the html element.
 $font-body:        $NewsGothicMTRegular;
 $font-monospace:   $courier;
 $menuFont: $adobeCaslonProSemiBold;

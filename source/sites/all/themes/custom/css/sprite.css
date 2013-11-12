@@ -1,0 +1,36 @@
+.sprite{
+    background: url(../images/sprite.png) no-repeat top left;
+}
+.sprite-company_sizes_big{ background-position: 0 0; width: 924px; height: 260px; }
+.sprite-company_sizes_empty{ background-position: 0 -310px; width: 924px; height: 260px; }
+.sprite-company_sizes_full{ background-position: 0 -620px; width: 924px; height: 260px; }
+.sprite-company_sizes_medium{ background-position: 0 -930px; width: 924px; height: 260px; }
+.sprite-company_sizes_small{ background-position: 0 -1240px; width: 924px; height: 260px; }
+.sprite-facebook_icon{ background-position: 0 -1550px; width: 23px; height: 23px; }
+.sprite-garden_tools_divider{ background-position: 0 -1623px; width: 110px; height: 100px; }
+.sprite-gray_2px_lin{ background-position: 0 -1773px; width: 68px; height: 2px; }
+.sprite-gray_down_arrow{ background-position: 0 -1825px; width: 19px; height: 17px; }
+.sprite-gray_flower_pot{ background-position: 0 -1892px; width: 31px; height: 42px; }
+.sprite-gray_hand_rake{ background-position: -974px 0; width: 20px; height: 61px; }
+.sprite-gray_left_arrow{ background-position: -974px -111px; width: 13px; height: 13px; }
+.sprite-gray_perpendicular_lin{ background-position: -974px -174px; width: 18px; height: 29px; }
+.sprite-gray_right_arrow{ background-position: -974px -253px; width: 13px; height: 13px; }
+.sprite-gray_shears{ background-position: -974px -316px; width: 28px; height: 59px; }
+.sprite-gray_sprinkler{ background-position: -974px -425px; width: 54px; height: 28px; }
+.sprite-gray_up_arrow{ background-position: -974px -503px; width: 19px; height: 17px; }
+.sprite-green_left_arrow{ background-position: -974px -570px; width: 13px; height: 13px; }
+.sprite-green_right_arrow{ background-position: -974px -633px; width: 13px; height: 13px; }
+.sprite-header_garden_tools{ background-position: -974px -696px; width: 150px; height: 142px; }
+.sprite-hola{ background-position: -974px -888px; width: 245px; height: 150px; }
+.sprite-linked_in_icon{ background-position: -974px -1088px; width: 23px; height: 23px; }
+.sprite-logo{ background-position: -974px -1161px; width: 201px; height: 115px; }
+.sprite-menu_borders{ background-position: -974px -1326px; width: 566px; height: 51px; }
+.sprite-twitter_icon{ background-position: -974px -1427px; width: 23px; height: 23px; }
+.sprite-yellow_circle_127px{ background-position: -974px -1500px; width: 127px; height: 127px; }
+.sprite-yellow_circle_79px{ background-position: -974px -1677px; width: 79px; height: 79px; }
+.sprite-yellow_flower_pot{ background-position: -974px -1806px; width: 19px; height: 26px; }
+.sprite-yellow_hand_rake{ background-position: -974px -1882px; width: 12px; height: 36px; }
+.sprite-yellow_shears{ background-position: -1948px 0; width: 17px; height: 35px; }
+.sprite-yellow_sprinkler{ background-position: -1948px -85px; width: 32px; height: 16px; }
+
+

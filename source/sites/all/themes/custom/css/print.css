@@ -4,6 +4,12 @@
  *
  * We provide some sane print styling for Drupal using Zen's layout method.
  */
+/*font-family:'News Gothic MT W01';
+font-family:'NewsGothicMTW01-Italic';
+font-family:'News Gothic MT W01 Bold';
+font-family:'NewsGothicMTW01-BoldIta';
+font-family:'NewsGothicMTW01-Condens';
+font-family:'NewsGothicMTW01-BoldCon';*/
 @media print {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000314}}
   a:link,
@@ -23,7 +29,7 @@
     /* Add visible URL after links. */
     content: " (" attr(href) ")";
     font-weight: normal;
-    font-size: 16px;
+    font-size: 13px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000330}}
   #content a[href^="javascript:"]:after,

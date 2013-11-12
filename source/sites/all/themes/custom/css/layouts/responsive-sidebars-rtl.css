@@ -12,6 +12,12 @@
  *
  * This layout uses the Zen Grids plugin for Compass: http://zengrids.com
  */
+/*font-family:'News Gothic MT W01';
+font-family:'NewsGothicMTW01-Italic';
+font-family:'News Gothic MT W01 Bold';
+font-family:'NewsGothicMTW01-BoldIta';
+font-family:'NewsGothicMTW01-Condens';
+font-family:'NewsGothicMTW01-BoldCon';*/
 /*
  * Center the page.
  */
@@ -35,8 +41,8 @@
 .region-sidebar-first,
 .region-sidebar-second,
 #footer {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -159,8 +165,8 @@
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003145}}
   .two-sidebars .region-sidebar-second .block {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;

@@ -209,16 +209,20 @@ body {
  */
 
 a:link {
+  color:$textosGenerales;
 }
 
 a:visited {
+  color:$textosGenerales;
 }
 
 a:hover,
 a:focus {
+  color:$textosGenerales;
 }
 
 a:active {
+  color:$textosGenerales;
 }
 
 /*
@@ -227,6 +231,7 @@ a:active {
 
 a:focus {
   outline: thin dotted;
+  color:$textosGenerales;
 }
 
 /*
@@ -237,6 +242,7 @@ a:focus {
 a:hover,
 a:active {
   outline: 0;
+  color:black;
 }
 
 
