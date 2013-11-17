@@ -168,3 +168,46 @@ font-family:'NewsGothicMTW01-BoldCon';*/
 #block-user-online {
   /* "Who's online" block for a list of the online users */
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/blocks\.scss}line{font-family:\00003110}}
+#block-views-estudio-block-estudio {
+  max-width: 205px;
+  width: 205px;
+  min-height: 600px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/blocks\.scss}line{font-family:\00003118}}
+#block-views-estudio-block-estudio .view-content {
+  max-width: 205px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/blocks\.scss}line{font-family:\00003122}}
+#block-views-estudio-block-estudio .slider-controls {
+  position: relative;
+  height: 32px;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/blocks\.scss}line{font-family:\00003126}}
+#block-views-estudio-block-estudio .slider-controls span {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/blocks\.scss}line{font-family:\00003132}}
+#block-views-estudio-block-estudio .slider-controls .next-person {
+  right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/blocks\.scss}line{font-family:\00003135}}
+#block-views-estudio-block-estudio .slider-controls .prev-person {
+  right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/blocks\.scss}line{font-family:\00003141}}
+#block-views-estudio-block-estudio .field-name-field-image img {
+  display: block;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/blocks\.scss}line{font-family:\00003146}}
+#block-views-estudio-block-estudio .views-field-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}

@@ -106,3 +106,46 @@
 
 #block-user-online { /* "Who's online" block for a list of the online users */
 }
+
+#block-views-estudio-block-estudio{
+
+  $maxWidth : 205px;
+  max-width:$maxWidth;
+  width: $maxWidth;
+  min-height: 600px;
+
+
+  .view-content{
+    max-width:$maxWidth;
+
+  }
+  .slider-controls{
+    position: relative;
+    height: 32px;
+    margin-bottom: 10px;
+    span{
+      display: block;
+      position: absolute;
+      bottom:0;
+      cursor: pointer;
+    }
+    .next-person{
+      right: 0;
+    }
+    .prev-person{
+      right: 20px;
+    }
+
+  }
+
+  .field-name-field-image img{
+    display: block;
+    margin:0 auto;
+  }
+
+  .views-field-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+}

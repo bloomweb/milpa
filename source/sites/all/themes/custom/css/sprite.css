@@ -1,11 +1,11 @@
 .sprite{
     background: url(../images/sprite.png) no-repeat top left;
 }
-.sprite-company_sizes_big{ background-position: 0 0; width: 924px; height: 260px; }
+.sprite-company_sizes_big, .sprite-tid-1 { background-position: 0 0; width: 924px; height: 260px; }
 .sprite-company_sizes_empty{ background-position: 0 -310px; width: 924px; height: 260px; }
 .sprite-company_sizes_full{ background-position: 0 -620px; width: 924px; height: 260px; }
-.sprite-company_sizes_medium{ background-position: 0 -930px; width: 924px; height: 260px; }
-.sprite-company_sizes_small{ background-position: 0 -1240px; width: 924px; height: 260px; }
+.sprite-company_sizes_medium, .sprite-tid-2{ background-position: 0 -930px; width: 924px; height: 260px; }
+.sprite-company_sizes_small, .sprite-tid-3{ background-position: 0 -1240px; width: 924px; height: 260px; }
 .sprite-facebook_icon{ background-position: 0 -1550px; width: 23px; height: 23px; }
 .sprite-garden_tools_divider{ background-position: 0 -1623px; width: 110px; height: 100px; }
 .sprite-gray_2px_lin{ background-position: 0 -1773px; width: 68px; height: 2px; }

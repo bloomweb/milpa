@@ -353,12 +353,14 @@ mark {
  * Addresses margins set differently in IE6/7
  */
 
-p,
+
 pre {
   /* Sets 1 unit of vertical rhythm on the top and bottom margin. */
   margin: rhythm(1) 0;
 }
+div p:first-child{
 
+}
 /*
  * Corrects font family set oddly in IE6, S4/5, Chrome
  * en.wikipedia.org/wiki/User:Davidgothberg/Test59

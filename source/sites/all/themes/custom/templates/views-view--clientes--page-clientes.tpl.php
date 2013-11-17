@@ -26,7 +26,7 @@
 	 * @ingroup views_templates
 	 */
 ?>
-<?php setcookie('tipo_cliente', '2', time() + 3600 * 24 * 180); ?>
+<?php //setcookie('tipo_cliente', '2', time() + 3600 * 24 * 180); ?>
 <div class="<?php print $classes; ?>">
 <?php print render($title_prefix); ?>
 <?php if($title): ?>

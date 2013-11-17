@@ -46,7 +46,7 @@ $zen-auto-include-item-base: false;
      by setting a max-width. */
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
+  max-width: 1024px;
 }
 
 /*
@@ -185,12 +185,12 @@ $zen-auto-include-item-base: false;
    */
 
   .sidebar-second {
-    #content { /* Span 4 columns, starting in 1st column from left. */
-      @include zen-grid-item(4, 1);
+    #content { /* Span 3 columns, starting in 1st column from left. */
+      @include zen-grid-item(3.5, 1);
     }
 
-    .region-sidebar-second { /* Span 1 column, starting in 5th column from left. */
-      @include zen-grid-item(1, 5);
+    .region-sidebar-second { /* Span 3 column, starting in 4th column from left. */
+      @include zen-grid-item(1.5, 4.5);
     }
   }
 

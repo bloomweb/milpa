@@ -78,6 +78,8 @@ stylesheets[all][] = css/print.css
 
 ; Optionally add some JavaScripts to your theme.
 
+scripts[] = js/jquery.cookie.js
+scripts[] = js/jquery.cycle.lite.js
 scripts[] = js/script.js
 
 
