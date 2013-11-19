@@ -18,12 +18,11 @@ body {
   margin: 0;
   padding: 0;
   color: $textosGenerales;
-
 }
 
 #page {
-  border-right: 1px solid black;
-  border-left: 1px solid black;
+  /*border-right: 1px solid black;
+  border-left: 1px solid black;*/
 
 
 
@@ -306,7 +305,7 @@ span.field-label { /* The inline field label used by the Fences module */
     margin: 0 auto;
     max-width: 957px;
     position: relative;
-    height: 650px;
+    height: 690px;
 
 
 
@@ -406,6 +405,7 @@ span.field-label { /* The inline field label used by the Fences module */
     font-family: $adobeCaslonProItalic;
     font-size: 22px;
     color:$coloTextoFooter;
+    clear:both;
 
   }
 }
