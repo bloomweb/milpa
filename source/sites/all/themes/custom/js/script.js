@@ -15,13 +15,13 @@
 
 // Place your code here.
 
-    $(function(){
+    $(function () {
 
-        if($('body').is(".front")){
+        if ($('body').is(".front")) {
 
-            centrarContentenidoDeBienvenida = function (){
-                marginForCenter = parseInt( ( ( $(document).height() - $("#content").height() ) /2) -25 );
-                $("#content").css("margin-top",marginForCenter+"px");
+            centrarContentenidoDeBienvenida = function () {
+                marginForCenter = parseInt(( ( $(document).height() - $("#content").height() ) / 2) - 25);
+                $("#content").css("margin-top", marginForCenter + "px");
             }
 
             centrarContentenidoDeBienvenida();
@@ -31,18 +31,18 @@
             $companiSizes.find(".texto").slideUp();
 
             $tamanoSeleccionadoPorCookie = $companiSizes.filter(".open");
-            if( $tamanoSeleccionadoPorCookie.length ){ // si se carga con un tipo de compania seleccionado (cookie)
+            if ($tamanoSeleccionadoPorCookie.length) { // si se carga con un tipo de compania seleccionado (cookie)
 
                 $tamanoSeleccionadoPorCookie.find(".texto").slideDown().find(".nombre span").removeClass('sprite-gray_right_arrow').addClass("sprite-gray_down_arrow");
-                $canvas.removeClass("sprite-company_sizes_empty sprite-tid-1 sprite-tid-2 sprite-tid-3").addClass( $tamanoSeleccionadoPorCookie.attr('rel') );
+                $canvas.removeClass("sprite-company_sizes_empty sprite-tid-1 sprite-tid-2 sprite-tid-3").addClass($tamanoSeleccionadoPorCookie.attr('rel'));
 
             }
 
             $companiSizes.hover(
 
-                function(){
+                function () {
 
-                    if( !$(this).is('.open') ){
+                    if (!$(this).is('.open')) {
 
                         $companiSizes.find(".texto").slideUp().addClass("open");
                         $companiSizes.find(".nombre span").removeClass("sprite-gray_down_arrow").addClass('sprite-gray_right_arrow');
@@ -50,18 +50,18 @@
                         $(this).find(".texto").slideDown();
                         $companiSizes.removeClass("open");
                         $(this).addClass("open");
-                        $canvas.removeClass("sprite-company_sizes_empty sprite-tid-1 sprite-tid-2 sprite-tid-3").addClass( $(this).attr('rel') );
+                        $canvas.removeClass("sprite-company_sizes_empty sprite-tid-1 sprite-tid-2 sprite-tid-3").addClass($(this).attr('rel'));
 
                     }
 
                 },
-                function(){
+                function () {
 
                 }
 
             );
 
-            $companiSizes.click(function(e){
+            $companiSizes.click(function (e) {
 
                 e.preventDefault();
                 $.cookie('tipo_cliente', $(this).attr('rel').slice(-1), { expires: 1, path: '/' });
@@ -69,34 +69,73 @@
 
             });
 
-            $(".front .saltar").click(function(e){
+            $(".front .saltar").click(function (e) {
 
                 e.preventDefault();
                 $.removeCookie('tipo_cliente');
                 //$.cookie('tipo_cliente', $(this).attr('rel').slice(-1), { expires: 1, path: '/' });
-              window.location = "/proyectos";
+                window.location = "/proyectos";
 
             });
 
-            $(window).resize(function(){
+            $(window).resize(function () {
                 centrarContentenidoDeBienvenida();
             });
         }
 
     });
 
-$(function(){
+    $(function () {
 
-    $("#main-menu li:not(.last)").append("<span class='divider sprite sprite-gray_perpendicular_lin'></span>");
+        $("#main-menu li:not(.last)").append("<span class='divider sprite sprite-gray_perpendicular_lin'></span>");
 
-    jQuery('.view-estudio .view-content').cycle({ // slider for person scroller
-        fx: 'fade',
-        next:   '.next-person',
-        prev:   '.prev-person',
-        timeout: 1000
-    }).append("<div style='clear:both'></div>");
+        jQuery('.view-estudio .view-content').cycle({ // slider for person scroller
+            fx: 'fade',
+            next: '.next-person',
+            prev: '.prev-person',
+            timeout: 1000
+        }).append("<div style='clear:both'></div>");
 
 
-});
+    });
 
+    $(function () { //CATALOGO
+
+        $(".catalogo .view-content").append("<div style='clear:both;'></div>");
+        $(".catalogo .group-informacion").append("<div class='sprite sprite-yellow_circle_79px'></div>");
+        $.each($(".catalogo.proyectos .ds-1col"),function(i,val){
+           $ds1=$(val);
+           $ds1.parent().css("width",$ds1.width()+'px');
+        });
+        $(".catalogo.proyectos .views-row").hover(
+            function () {
+
+                $that = $(this);
+                $groupImagen = $that.find('.group-imagen');
+                cssTop = $groupImagen.height();
+                $dsCol = $groupImagen.parent();
+                $dsCol.animate({
+                        'top':"-"+cssTop
+                    },
+                    400, function () {
+
+                    });
+
+            },
+            function () {
+
+                $that = $(this);
+                $that.find('.ds-1col').animate({
+                        'top':0
+                    },
+                    400, function () {
+
+                    });
+
+            }
+        );
+
+
+
+    });
 })(jQuery, Drupal, this, this.document);

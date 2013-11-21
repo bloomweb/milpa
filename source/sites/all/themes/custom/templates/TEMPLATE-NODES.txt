@@ -1,0 +1,4 @@
+TEMPLATES NODES
+---------
+node--16.tpl.php -> Contenido de la página de clientes
+node--17.tpl.php -> Contenido de la página de proyectos

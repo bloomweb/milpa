@@ -98,3 +98,5 @@ Located in /modules/user:
   user-profile-category.tpl.php
   user-profile-item.tpl.php
   user-profile.tpl.php
+
+PROJECT NODE TEMPLATES

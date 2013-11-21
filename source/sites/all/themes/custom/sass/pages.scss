@@ -6,9 +6,7 @@
  * miscellaneous Drupal elements that appear in the $content variable, such as
  * ul.links, .pager, .more-link, etc.
  */
-
 @import "base";
-
 
 /*
  * Body
@@ -24,12 +22,12 @@ body {
   /*border-right: 1px solid black;
   border-left: 1px solid black;*/
 
-
-
 }
-#mti_wfs_colophon img{
+
+#mti_wfs_colophon img {
   display: none;
 }
+
 /*
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
@@ -55,44 +53,46 @@ body {
 
 #header {
   padding-bottom: 52px;
-  > div{
-    float:left;
+  > div {
+    float: left;
     width: 33%;
     margin: 0;
     padding: 0;
   }
-  .logo-wrapper{
+  .logo-wrapper {
 
   }
-  #logo { /* Wrapping link for logo */
+  #logo {
+    /* Wrapping link for logo */
     display: block;
     float: left; /* LTR */
     margin-left: 27px;
     margin-top: 48px;
   }
 
-  .garden-tools{
+  .garden-tools {
     padding-top: 32px;
-    .sprite{
+    .sprite {
       margin: 0 auto;
     }
   }
 
-  .contact_info{
+  .contact_info {
     padding-top: 38px;
     text-align: right;
+    line-height: 18px;
     .social {
       float: right;
       margin-bottom: 12px;
-      a{
+      a {
         display: block;
-        float:left;
+        float: left;
         margin-left: 6px;
       }
     }
-    .info{
-      clear:both;
-      p{
+    .info {
+      clear: both;
+      p {
         margin: 0 0 24px 0;
       }
     }
@@ -101,13 +101,13 @@ body {
 
 }
 
-
-
-#name-and-slogan { /* Wrapper for website name and slogan */
+#name-and-slogan {
+  /* Wrapper for website name and slogan */
   float: left;
 }
 
-#site-name { /* The name of the website */
+#site-name {
+  /* The name of the website */
   margin: 0;
   font-size: 2em;
   line-height: 1.5em;
@@ -124,12 +124,14 @@ body {
   }
 }
 
-#site-slogan { /* The slogan (or tagline) of a website */
+#site-slogan {
+  /* The slogan (or tagline) of a website */
   margin: 0;
   font-size: 1em;
 }
 
-.region-header { /* Wrapper for any blocks placed in the header region */
+.region-header {
+  /* Wrapper for any blocks placed in the header region */
   clear: both; /* Clear the logo */
 }
 
@@ -150,7 +152,8 @@ body {
 .region-highlighted {
 }
 
-.breadcrumb { /* The path to the current page in the form of a list of links */
+.breadcrumb {
+  /* The path to the current page in the form of a list of links */
   ol {
     margin: 0;
     padding: 0;
@@ -168,24 +171,30 @@ h2.node-title, /* Title of a piece of content when it is given in a list of cont
 h2.block-title, /* Block title */
 h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
-h3.title { /* Comment title */
+h3.title {
+  /* Comment title */
   margin: 0;
-  font-size:19px;
- font-family: 'News Gothic MT W01 Bold';
-}
-h2.subtitle{
-  font-size:19px;
+  font-size: 19px;
+  font-family: 'News Gothic MT W01 Bold';
 }
 
-tr.even { /* Some tables have rows marked even or odd. */
-  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+h2.subtitle {
+  font-size: 19px;
+}
+
+tr.even {
+  /* Some tables have rows marked even or odd. */
+  /* background-color: #eee; */
+  /* Drupal core uses a #eee background */
 }
 
 tr.odd {
-  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+  /* background-color: #eee; */
+  /* Drupal core uses a #eee background */
 }
 
-div.messages { /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
+div.messages {
+  /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
   margin: 1.5em 0; /* Drupal core uses "6px 0" margin */
 
   ul {
@@ -194,39 +203,52 @@ div.messages { /* Important messages (status, warning, and error) for the user. 
   }
 }
 
-div.status { /* Normal priority messages */
+div.status {
+  /* Normal priority messages */
 }
 
 div.warning,
-tr.warning { /* Medium priority messages */
-  /* border: 1px solid #f0c020; */ /* Drupal core uses: 1px solid #f0c020 */
+tr.warning {
+  /* Medium priority messages */
+  /* border: 1px solid #f0c020; */
+  /* Drupal core uses: 1px solid #f0c020 */
 }
 
 div.error,
-tr.error { /* High priority messages. See also the .error declaration below. */
+tr.error {
+  /* High priority messages. See also the .error declaration below. */
 }
 
-.error { /* Errors that are separate from div.messages status messages. */
-  /* color: #e55; */ /* Drupal core uses a #e55 background */
+.error {
+  /* Errors that are separate from div.messages status messages. */
+  /* color: #e55; */
+  /* Drupal core uses a #e55 background */
 }
 
-.warning { /* Warnings that are separate from div.messages status messages. */
-  /* color: #e09010; */ /* Drupal core uses a #e09010 background */
+.warning {
+  /* Warnings that are separate from div.messages status messages. */
+  /* color: #e09010; */
+  /* Drupal core uses a #e09010 background */
 }
 
-.tabs { /* See also the tabs.css file. */
+.tabs {
+  /* See also the tabs.css file. */
 }
 
-.region-help { /* Help text on a page */
+.region-help {
+  /* Help text on a page */
 }
 
-.more-help-link { /* Link to more help */
+.more-help-link {
+  /* Link to more help */
 }
 
-.region-content { /* Wrapper for the actual page content */
+.region-content {
+  /* Wrapper for the actual page content */
 }
 
-ul.inline { /* List of links generated by theme_links() */
+ul.inline {
+  /* List of links generated by theme_links() */
   display: inline;
   padding: 0;
 
@@ -236,22 +258,28 @@ ul.inline { /* List of links generated by theme_links() */
     padding: 0 1em 0 0; /* LTR */
   }
 }
-span.field-label { /* The inline field label used by the Fences module */
+
+span.field-label {
+  /* The inline field label used by the Fences module */
   padding: 0 1em 0 0; /* LTR */
 }
 
-.item-list .pager { /* A list of page numbers when more than 1 page of content is available */
+.item-list .pager {
+  /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 
-  li { /* Each page number in the pager list */
+  li {
+    /* Each page number in the pager list */
     padding: 0 0.5em;
   }
 }
 
-.feed-icon { /* The link to the RSS or Atom feed for the current list of content */
+.feed-icon {
+  /* The link to the RSS or Atom feed for the current list of content */
 }
 
-.more-link { /* Aggregator, blog, and forum more link */
+.more-link {
+  /* Aggregator, blog, and forum more link */
 }
 
 /*
@@ -274,7 +302,7 @@ span.field-label { /* The inline field label used by the Fences module */
 .region-sidebar-second {
   padding-top: 25px;
 
-  .block{
+  .block {
     padding-right: 27px;
     float: right;
     clear: right;
@@ -293,21 +321,20 @@ span.field-label { /* The inline field label used by the Fences module */
  * Page bottom
  */
 
-.region-bottom { /* Wrapper for any blocks placed in the page bottom region */
+.region-bottom {
+  /* Wrapper for any blocks placed in the page bottom region */
 }
 
 /*FRONT PAGE STYLES*/
-.front #main{
+.front #main {
 
-  #content{
+  #content {
 
     padding: 0;
     margin: 0 auto;
     max-width: 957px;
     position: relative;
     height: 690px;
-
-
 
   }
   a {
@@ -316,7 +343,7 @@ span.field-label { /* The inline field label used by the Fences module */
     text-decoration: none;
   }
 
-  .saltar{
+  .saltar {
 
     font-size: 22px;
     padding: 10px 0 8px 19px;
@@ -325,36 +352,34 @@ span.field-label { /* The inline field label used by the Fences module */
     z-index: 2;
 
   }
-  .sprite-gray_2px_lin{
+  .sprite-gray_2px_lin {
     margin-left: 19px;
     margin-top: 40px;
   }
 
-  .select-company-size{
+  .select-company-size {
 
     display: inline-block;
     font-size: 15px;
     margin-top: 10px;
 
-    .sprite-gray_2px_lin{
+    .sprite-gray_2px_lin {
       margin-left: 0;
       margin-top: 2px;
     }
 
   }
-  .open .select-company-size{
+  .open .select-company-size {
     color: $amarillo;
   }
 
-
-
-  #tamanoCliente{
+  #tamanoCliente {
 
     position: relative;
     width: 100%;
     top: -86px;
 
-    .tamano{
+    .tamano {
 
       float: left;
       padding: 0;
@@ -365,12 +390,12 @@ span.field-label { /* The inline field label used by the Fences module */
       padding-top: 281px;
       cursor: pointer;
 
-      span.arrow{
+      span.arrow {
         display: inline-block;
         line-height: 31px;
       }
 
-      .nombre{
+      .nombre {
 
         text-transform: lowercase;
         font-size: 31px;
@@ -378,39 +403,144 @@ span.field-label { /* The inline field label used by the Fences module */
         margin-bottom: 17px;
       }
 
-      .texto{
-
+      .texto {
       }
 
     }
 
-    .tamano.pos-0{ // Primer tamano
+    .tamano.pos-0 {
+      // Primer tamano
       margin-top: 95px;
       padding-top: 281px - 95px;
     }
-    .tamano.pos-1{ // Primer tamano
+    .tamano.pos-1 {
+      // Primer tamano
       margin-left: 1%;
-      padding-right: 1% ;
+      padding-right: 1%;
     }
 
-    .tamano.pos-2{
+    .tamano.pos-2 {
       margin-right: 0;
 
     }
 
   }
-  #footer{
+  #footer {
 
     text-align: center;
     font-family: $adobeCaslonProItalic;
     font-size: 22px;
-    color:$coloTextoFooter;
-    clear:both;
+    color: $coloTextoFooter;
+    clear: both;
 
   }
 }
+
 /*BASCI PAGES STYLES*/
-.page-node #content{
+.page-node #content {
   padding-top: 67px;
-  max-width: 450px + 30px +30px + 2px/* chrome fix*/;
+  max-width: 450px + 30px +30px + 2px /* chrome fix*/;
+}
+
+/*CATALOG PAGES*/
+.page-node-16,
+.page-node-17 {
+
+  #content {
+    max-width: 100%;
+    padding-top: 50px;
+  }
+
+  #page-title,
+  .tabs-primary {
+    display: none;
+  }
+
+  .catalogo {
+    margin-bottom: 47px;
+
+    a{
+      text-decoration: none;
+    }
+    a:hover{
+
+      color:$amarillo;
+
+    }
+
+    h3 {
+      display: none;
+    }
+
+    img{
+      max-width: inherit;
+    }
+    .left-tab {
+      overflow: hidden;
+      float: left;
+      text-indent: -10000px;
+      margin-right: 79px;
+    }
+
+    .view {
+      float: left;
+    }
+
+    .views-row {
+      float: left;
+      margin-right: 65px;
+      position: relative;
+      height: 248px;
+      overflow: hidden;
+      cursor: pointer;
+
+      .field-name-field-logo a {
+
+        display: block;
+        text-align: center;
+        line-height: 248px;
+        vertical-align: middle;
+
+      }
+
+    }
+
+    .views-row.views-row-last {
+      margin-right: 0;
+    }
+
+  }
+
+  .catalogo.proyectos {
+    .ds-1col {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      .group-imagen {
+        text-align: center;
+
+      }
+
+      .group-informacion {
+        position: relative;
+
+        .sprite{
+          position: absolute;
+          z-index: -1;
+          top: 18px;
+          right: 18px;
+        }
+      }
+
+    }
+  }
+
+  .catalogo-completo {
+    margin-bottom: 0;
+  }
+}
+
+.cuadricula{
+  // 6 x 6, cada celda mide 117px y el ancho total es de 702px
 }
