@@ -166,10 +166,8 @@
             var theImage = new Image();
             theImage.src = $(val).attr("src");
             theImage.addEventListener('load', function (val) {
-                console.log(theImage.width);
                 cssProperties = {'width': theImage.width, 'height': theImage.height}
                 $(val).parent().css(cssProperties).parent(cssProperties);
-                console.log('loaded');
             });
 
         });
