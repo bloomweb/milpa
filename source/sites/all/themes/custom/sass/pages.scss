@@ -23,6 +23,9 @@ body {
   border-left: 1px solid black;*/
 
 }
+.pointer{
+  cursor: pointer;
+}
 
 #mti_wfs_colophon img {
   display: none;
@@ -437,7 +440,7 @@ span.field-label {
 }
 
 /*BASCI PAGES STYLES*/
-.page-node #content {
+.node-type-page #content {
   padding-top: 67px;
   max-width: 450px + 30px +30px + 2px /* chrome fix*/;
 }
@@ -541,6 +544,145 @@ span.field-label {
   }
 }
 
+// PAGINA CLIENTE
+.testimonial{
+  font-size: 12px;
+  text-align:right;
+  .texto{
+    text-align: left;
+    font-family: $adobeCaslonProItalic;
+    font-size: 19px;
+    margin-bottom: 30px;
+  }
+
+  .author{
+    margin: 0;
+    line-height: 12px;
+  }
+
+  .cargo{
+    margin: 0;
+  }
+}
+body.node-type-cliente{
+
+  .cliente-info{
+    width:180px;
+    float:left;
+    .testimonial{
+     margin-top: 38px;
+    }
+    .description{
+      border-color:$coloTextoFooter;
+      border-bottom: solid 1px;
+      border-top: solid 1px;
+      padding: 5px 0;
+    }
+
+    .testimonial{
+
+    }
+
+  }
+  .cuadricula-container{
+    width:695px;
+    float:right;
+
+    .cuadricula-wrapper{
+      width: 702px;
+      height: 702px;
+    }
+  }
+}
+#cuadricula-controls{
+
+  text-align: right;
+
+  span, a{
+    margin: 0 3px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  a.activeSlide{
+    text-decoration: underline;
+    font-weight: bold;
+    color:black;
+  }
+  .cycle-pager{
+    display: inline-block;
+  }
+}
+
 .cuadricula{
-  // 6 x 6, cada celda mide 117px y el ancho total es de 702px
+  // 6 x 6, cada celda mide 115px y el ancho total es de 700px  con un margin de 2px
+  width: 702px;
+  height: 702px;
+
+  .wrapper{
+    position: relative;
+  }
+
+
+  .celda{
+    position: absolute;
+  //  margin-left: 2px;
+    min-height: 117px;
+    min-width: 117px;
+    background: white;
+   // margin-top: 2px;
+    .container{
+      position: relative;
+    }
+
+    .ico {
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      background-image: url('../images/lupas.png');
+      background-repeat: no-repeat;
+      z-index: 10;
+      bottom: 5px;
+      right: 5px;
+      cursor:pointer;
+    }
+
+    .ico.close{
+      background-position: -23px 0;
+    }
+
+    .big-image{
+      display: none;
+      position: absolute;
+      z-index: 100;
+      background: white;
+
+      img{
+        max-width: inherit;
+      }
+    }
+
+    .top-left{
+      top:0;
+      left:0;
+    }
+    .top-right{
+      top:0;
+      right: 0;
+    }
+    .bottom-left{
+      bottom:0;
+      left:0;
+    }
+    .bottom-right{
+      bottom:0;
+      right:0;
+    }
+
+  }
+  .celda.c1{
+    margin-left: 0;
+  }
+  .celda.r1{
+    margin-top: 0;
+  }
 }
