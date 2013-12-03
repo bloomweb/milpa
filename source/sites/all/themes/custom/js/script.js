@@ -103,9 +103,21 @@
         //Listado
         $(".catalogo .view-content").append("<div style='clear:both;'></div>");
         $(".catalogo .group-informacion").append("<div class='sprite sprite-yellow_circle_79px'></div>");
-        $.each($(".catalogo.proyectos .ds-1col"),function(i,val){
-           $ds1=$(val);
-           $ds1.parent().css("width",$ds1.width()+'px');
+        $.each($(".catalogo.proyectos .ds-1col"), function (i, val) {
+
+            var $ds1 = $(val);
+            var image = new Image();
+            $image = $ds1.find('img');
+
+            if ($image.length) {
+                image.src = $image.attr('src');
+                image.addEventListener('load', function (val) {
+                    $ds1.parent().css("width", image.width + 'px');
+
+                });
+            }
+
+            //$ds1.parent().css("width",$ds1.width()+'px');
         });
         $(".catalogo.proyectos .views-row").hover(
             function () {
@@ -115,7 +127,7 @@
                 cssTop = $groupImagen.height();
                 $dsCol = $groupImagen.parent();
                 $dsCol.animate({
-                        'top':"-"+cssTop
+                        'top': "-" + cssTop
                     },
                     400, function () {
 
@@ -126,7 +138,7 @@
 
                 $that = $(this);
                 $that.find('.ds-1col').animate({
-                        'top':0
+                        'top': 0
                     },
                     400, function () {
 
@@ -138,33 +150,34 @@
 
         // VISTA
 
-        if( $('.node-type-cliente').is('.node-type-cliente') ){
+        if ($('.node-type-cliente').is('.node-type-cliente')) {
 
             jQuery('.cuadricula-wrapper').cycle({ // slider for person scroller
                 fx: 'scrollHorz',
                 next: '.next-cuadricula',
                 prev: '.prev-cuadricula',
                 timeout: 0,
-                pager :".cycle-pager"
+                pager: ".cycle-pager"
 
             }).append("<div style='clear:both'></div>");
 
         }
-        $.each($(".cuadricula img.imagen-cuadricula"),function(i,val){
+        $.each($(".cuadricula img.imagen-cuadricula"), function (i, val) {
             var theImage = new Image();
             theImage.src = $(val).attr("src");
-            theImage.addEventListener('load',(function(val){
-                cssProperties = {'width': theImage.width,'height': theImage.height}
+            theImage.addEventListener('load', function (val) {
+                console.log(theImage.width);
+                cssProperties = {'width': theImage.width, 'height': theImage.height}
                 $(val).parent().css(cssProperties).parent(cssProperties);
                 console.log('loaded');
-            })(val));
+            });
 
         });
 
-        $('.launch-image').click(function(){
+        $('.launch-image').click(function () {
             $(this).siblings('.big-image').show('fast');
         });
-        $('.hide-image').click(function(){
+        $('.hide-image').click(function () {
             $(this).parent().hide('fast');
         });
 
