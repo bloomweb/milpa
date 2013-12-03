@@ -156,7 +156,7 @@
             theImage.addEventListener('load',(function(val){
                 cssProperties = {'width': theImage.width,'height': theImage.height}
                 $(val).parent().css(cssProperties).parent(cssProperties);
-                
+                console.log('loaded');
             })(val));
 
         });
