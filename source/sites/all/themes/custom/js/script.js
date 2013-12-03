@@ -153,8 +153,12 @@
         $.each($(".cuadricula img.imagen-cuadricula"),function(i,val){
             var theImage = new Image();
             theImage.src = $(val).attr("src");
-            cssProperties = {'width': theImage.width,'height': theImage.height}
-            $(val).parent().css(cssProperties).parent(cssProperties);
+            theImage.addEventListener('load',(function(val){
+                cssProperties = {'width': theImage.width,'height': theImage.height}
+                $(val).parent().css(cssProperties).parent(cssProperties);
+                
+            })(val));
+
         });
 
         $('.launch-image').click(function(){
