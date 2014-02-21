@@ -61,6 +61,7 @@
                 <?php print $feed_icons; ?>
 
             </div>
+            <div style="clear: both;"></div>
 
         </div>
 

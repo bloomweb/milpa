@@ -11,39 +11,39 @@ font-family:'NewsGothicMTW01-BoldIta';
 font-family:'NewsGothicMTW01-Condens';
 font-family:'NewsGothicMTW01-BoldCon';*/
 @media print {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000314}}
   a:link,
   a:visited {
     /* underline all links */
     text-decoration: underline !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000317}}
   #site-name a:link, #site-name
   a:visited {
     /* Don't underline header */
     text-decoration: none !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000323}}
   #content a[href]:after {
     /* Add visible URL after links. */
     content: " (" attr(href) ")";
     font-weight: normal;
     font-size: 13px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000330}}
   #content a[href^="javascript:"]:after,
   #content a[href^="#"]:after {
     /* Only display useful links. */
     content: "";
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000334}}
   #content abbr[title]:after {
     /* Add visible title after abbreviations. */
     content: " (" attr(title) ")";
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000339}}
   #content {
     /* Un-float the content */
     float: none !important;
@@ -52,7 +52,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     padding: 0 !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000349}}
   body,
   #page,
   #main,
@@ -63,7 +63,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     background-image: none !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/print\.scss}line{font-family:\0000368}}
   #skip-link,
   #toolbar,
   #navigation,

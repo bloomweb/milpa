@@ -21,7 +21,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
 /*
  * Corrects block display not defined in IE6/7/8/9 & FF3
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\0000335}}
 article,
 aside,
 details,
@@ -40,7 +40,7 @@ summary {
 /*
  * Corrects inline-block display not defined in IE6/7/8/9 & FF3
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\0000345}}
 audio,
 canvas,
 video {
@@ -51,7 +51,7 @@ video {
  * Prevents modern browsers from displaying 'audio' without controls
  * Remove excess height in iOS5 devices
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\0000358}}
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -61,7 +61,7 @@ audio:not([controls]) {
  * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
  * Known issue: no IE6 support
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\0000368}}
 [hidden] {
   display: none;
 }
@@ -140,7 +140,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
  *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003173}}
 html {
   font-size: 81.25%;
   /* 1 */
@@ -155,7 +155,7 @@ html {
 /*
  * Addresses font-family inconsistency between 'textarea' and other form elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003189}}
 html,
 button,
 input,
@@ -167,7 +167,7 @@ textarea {
 /*
  * Addresses margins handled incorrectly in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003197}}
 body {
   margin: 0;
 }
@@ -179,23 +179,23 @@ body {
  * The order of link states are based on Eric Meyer's article:
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003211}}
 a:link {
   color: #61565a;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003215}}
 a:visited {
   color: #61565a;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003220}}
 a:hover,
 a:focus {
   color: #61565a;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003224}}
 a:active {
   color: #61565a;
 }
@@ -203,7 +203,7 @@ a:active {
 /*
  * Addresses outline displayed oddly in Chrome
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003232}}
 a:focus {
   outline: thin dotted;
   color: #61565a;
@@ -213,7 +213,7 @@ a:focus {
  * Improves readability when focused and also mouse hovered in all browsers
  * people.opera.com/patrickl/experiments/keyboard/test
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003243}}
 a:hover,
 a:active {
   outline: 0;
@@ -233,7 +233,7 @@ a:active {
  * Addresses font sizes and margins set differently in IE6/7
  * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003264}}
 h1 {
   /* Sets the font-size and line-height while keeping a proper vertical rhythm. */
   font-size: 2em;
@@ -243,7 +243,7 @@ h1 {
   margin-bottom: 0.92308em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003273}}
 h2 {
   font-size: 1.5em;
   line-height: 1.23077em;
@@ -251,7 +251,7 @@ h2 {
   margin-bottom: 1.23077em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003279}}
 h3 {
   font-size: 1.17em;
   line-height: 1.57791em;
@@ -259,7 +259,7 @@ h3 {
   margin-bottom: 1.57791em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003285}}
 h4 {
   font-size: 1em;
   line-height: 1.84615em;
@@ -267,7 +267,7 @@ h4 {
   margin-bottom: 1.84615em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003291}}
 h5 {
   font-size: 0.83em;
   line-height: 2.22428em;
@@ -275,7 +275,7 @@ h5 {
   margin-bottom: 2.22428em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003297}}
 h6 {
   font-size: 0.75em;
   line-height: 2.46154em;
@@ -284,7 +284,7 @@ h6 {
 }
 
 /* Thematic break */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003304}}
 hr {
   height: 1px;
   border: 1px solid #666;
@@ -295,7 +295,7 @@ hr {
 /*
  * Addresses styling not present in IE7/8/9, S5, Chrome
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003315}}
 abbr[title] {
   border-bottom: 1px dotted;
   cursor: help;
@@ -305,13 +305,13 @@ abbr[title] {
 /*
  * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003326}}
 b,
 strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003330}}
 blockquote {
   /* Sets 1 unit of vertical rhythm on the top and bottom margin. */
   margin: 1.84615em 30px;
@@ -320,7 +320,7 @@ blockquote {
 /*
  * Addresses styling not present in S5, Chrome
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003339}}
 dfn {
   font-style: italic;
 }
@@ -328,7 +328,7 @@ dfn {
 /*
  * Addresses styling not present in IE6/7/8/9
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003347}}
 mark {
   background: #ff0;
   color: #000;
@@ -337,7 +337,7 @@ mark {
 /*
  * Addresses margins set differently in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003357}}
 pre {
   /* Sets 1 unit of vertical rhythm on the top and bottom margin. */
   margin: 1.84615em 0;
@@ -347,7 +347,7 @@ pre {
  * Corrects font family set oddly in IE6, S4/5, Chrome
  * en.wikipedia.org/wiki/User:Davidgothberg/Test59
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003374}}
 pre,
 code,
 kbd,
@@ -363,7 +363,7 @@ var {
 /*
  * Improves readability of pre-formatted text in all browsers
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003386}}
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -375,13 +375,13 @@ pre {
  * 2. Addresses quote property not supported in S4
  */
 /* 1 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003399}}
 q {
   quotes: none;
 }
 
 /* 2 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003406}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003406}}
 q:before,
 q:after {
   content: '';
@@ -389,7 +389,7 @@ q:after {
 }
 
 /* @todo Determine how big element affects vertical rhythm. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003412}}
 small {
   font-size: 75%;
 }
@@ -398,7 +398,7 @@ small {
  * Prevents sub and sup affecting line-height in all browsers
  * gist.github.com/413930
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003422}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003422}}
 sub,
 sup {
   font-size: 75%;
@@ -407,12 +407,12 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003429}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003433}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003433}}
 sub {
   bottom: -0.25em;
 }
@@ -423,7 +423,7 @@ sub {
 /*
  * Addresses margins set differently in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003450}}
 dl,
 menu,
 ol,
@@ -433,19 +433,19 @@ ul,
   margin: 1.84615em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003455}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003455}}
 .item-list ul li {
   /* Drupal override */
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003459}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003459}}
 dd {
   margin: 0 0 0 30px;
   /* LTR */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003464}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003464}}
 ul ul, ul ol, ol ul, ol ol, .item-list ul ul, .item-list ul ol, .item-list ol ul, .item-list ol ol {
   margin: 0;
   /* Turn off margins on nested lists. */
@@ -454,7 +454,7 @@ ul ul, ul ol, ol ul, ol ol, .item-list ul ul, .item-list ul ol, .item-list ol ul
 /*
  * Addresses paddings set differently in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003476}}
 menu,
 ol,
 ul,
@@ -466,7 +466,7 @@ ul,
 /*
  * Corrects list images handled incorrectly in IE7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003485}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003485}}
 nav ul,
 nav ol {
   list-style: none;
@@ -481,7 +481,7 @@ nav ol {
  * 2. Improves image quality when scaled in IE7
  *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003501}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003501}}
 img {
   border: 0;
   /* 1 */
@@ -498,7 +498,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE9
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003517}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003517}}
 svg:not(:root) {
   overflow: hidden;
 }
@@ -509,7 +509,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE6/7/8/9, S5, O11
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003530}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003530}}
 figure {
   margin: 0;
 }
@@ -520,7 +520,7 @@ figure {
 /*
  * Corrects margin displayed oddly in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003543}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003543}}
 form {
   margin: 0;
 }
@@ -528,7 +528,7 @@ form {
 /*
  * Define consistent border, margin, and padding
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003551}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003551}}
 fieldset {
   border-color: #c0c0c0;
   margin: 0 2px;
@@ -552,7 +552,7 @@ fieldset {
  * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003567}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003567}}
 legend {
   border: 0;
   /* 1 */
@@ -566,7 +566,7 @@ legend {
  * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
  * 3. Improves appearance and consistency in all browsers
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003585}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003585}}
 button,
 input,
 select,
@@ -582,7 +582,7 @@ textarea {
 /*
  * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003599}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003599}}
 button,
 input {
   line-height: normal;
@@ -595,7 +595,7 @@ input {
  * 3. Removes inner spacing in IE7 without affecting normal text inputs
  *    Known issue: inner spacing remains in IE6
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003613}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003613}}
 button,
 input[type="button"],
 input[type="reset"],
@@ -609,7 +609,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003626}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003626}}
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -621,7 +621,7 @@ input[disabled] {
  * 3. Removes excess padding in IE7
       Known issue: excess padding remains in IE6
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003638}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003638}}
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -636,7 +636,7 @@ input[type="radio"] {
  * 1. Addresses appearance set to searchfield in S5, Chrome
  * 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003652}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003652}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -649,7 +649,7 @@ input[type="search"] {
 /*
  * Removes inner padding and search cancel button in S5, Chrome on OS X
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003662}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003662}}
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
@@ -659,7 +659,7 @@ input[type="search"]::-webkit-search-cancel-button {
  * Removes inner padding and border in FF3+
  * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003672}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003672}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -670,7 +670,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE6/7/8/9
  * 2. Improves readability and alignment in all browsers
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003682}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003682}}
 textarea {
   overflow: auto;
   /* 1 */
@@ -684,7 +684,7 @@ textarea {
 /*
  * Remove most spacing between table cells
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003696}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003696}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -699,7 +699,7 @@ table {
  * Drupal provides table styling which is only useful for its admin section
  * forms, so we override this default CSS. (We set it back in forms.css.)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003710}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003710}}
 th {
   text-align: left;
   /* LTR */
@@ -707,7 +707,7 @@ th {
   border-bottom: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003716}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003716}}
 tbody {
   border-top: none;
 }

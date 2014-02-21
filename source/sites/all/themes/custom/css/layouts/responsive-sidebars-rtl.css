@@ -21,7 +21,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
 /*
  * Center the page.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000344}}
 #page,
 .region-bottom {
   /* For screen sizes larger than 1200px, prevent excessively long lines of text
@@ -34,7 +34,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
 /*
  * Apply the shared properties of grid items in a single, efficient ruleset.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000362}}
 #header,
 #content,
 #navigation,
@@ -53,7 +53,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
 /*
  * Containers for grid items and flow items.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000352}}
 #header:before, #header:after,
 #main:before,
 #main:after,
@@ -62,7 +62,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
   content: "";
   display: table;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass-extensions\/zen-grids\/stylesheets\/zen\/_grids\.scss}line{font-family:\0000356}}
 #header:after,
 #main:after,
 #footer:after {
@@ -73,14 +73,14 @@ font-family:'NewsGothicMTW01-BoldCon';*/
  * Navigation bar
  */
 @media all and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000381}}
   #main {
     padding-top: 51px;
     /* Move all the children of #main down to make room. */
     position: relative;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000385}}
   #navigation {
     position: absolute;
     height: 51px;
@@ -96,7 +96,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
   /*
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003105}}
   .sidebar-first #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: right;
@@ -104,7 +104,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     margin-right: 33.33333%;
     margin-left: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003109}}
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -116,7 +116,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
   /*
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003119}}
   .sidebar-second #content {
     /* Span 2 columns, starting in 1st column from left. */
     float: right;
@@ -124,7 +124,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     margin-right: 0%;
     margin-left: -66.66667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003123}}
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 3rd column from left. */
     float: right;
@@ -136,7 +136,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
   /*
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003133}}
   .two-sidebars #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: right;
@@ -144,7 +144,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     margin-right: 33.33333%;
     margin-left: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003137}}
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -152,7 +152,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     margin-right: 0%;
     margin-left: -33.33333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003141}}
   .two-sidebars .region-sidebar-second {
     /* Start a new row and span all 3 columns. */
     float: right;
@@ -163,7 +163,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     padding-right: 0;
     clear: right;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003146}}
   .two-sidebars .region-sidebar-second .block {
     padding-left: 30px;
     padding-right: 30px;
@@ -173,7 +173,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003149}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     /* Span 1 column, starting in the 1st column from left. */
     float: right;
@@ -182,7 +182,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     margin-left: -33.33333%;
     clear: right;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003153}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     /* Span 1 column, starting in the 2nd column from left. */
     float: right;
@@ -190,7 +190,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     margin-right: 33.33333%;
     margin-left: -66.66667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003156}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     /* Span 1 column, starting in the 3rd column from left. */
     float: right;
@@ -206,7 +206,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
   /*
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003174}}
   .sidebar-first #content {
     /* Span 4 columns, starting in 2nd column from left. */
     float: right;
@@ -214,7 +214,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     margin-right: 20%;
     margin-left: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003178}}
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -226,7 +226,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
   /*
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003188}}
   .sidebar-second #content {
     /* Span 3 columns, starting in 1st column from left. */
     float: right;
@@ -234,7 +234,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     margin-right: 0%;
     margin-left: -70%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003192}}
   .sidebar-second .region-sidebar-second {
     /* Span 3 column, starting in 4th column from left. */
     float: right;
@@ -246,7 +246,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
   /*
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003202}}
   .two-sidebars #content {
     /* Span 3 columns, starting in 2nd column from left. */
     float: right;
@@ -254,7 +254,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     margin-right: 20%;
     margin-left: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003206}}
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -262,7 +262,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
     margin-right: 0%;
     margin-left: -20%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003210}}
   .two-sidebars .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: right;

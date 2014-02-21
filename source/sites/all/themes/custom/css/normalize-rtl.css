@@ -11,7 +11,7 @@ font-family:'NewsGothicMTW01-BoldCon';*/
 /*
  * Addresses margins set differently in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize-rtl\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize-rtl\.scss}line{font-family:\0000314}}
 dd {
   margin: 0 30px 0 0;
 }
@@ -19,7 +19,7 @@ dd {
 /*
  * Addresses paddings set differently in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize-rtl\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize-rtl\.scss}line{font-family:\0000325}}
 menu,
 ol,
 ul,
@@ -36,7 +36,7 @@ ul,
 /* =============================================================================
    Tables
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize-rtl\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/custom\/sass\/normalize-rtl\.scss}line{font-family:\0000348}}
 th {
   text-align: right;
 }

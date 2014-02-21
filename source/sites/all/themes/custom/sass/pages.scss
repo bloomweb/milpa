@@ -686,3 +686,129 @@ body.node-type-cliente{
     margin-top: 0;
   }
 }
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #main{
+    
+    width: 100% !important;
+    padding: 0 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+    #content{
+      margin-top: 50px !important;
+      height: auto !important;
+    }
+    .sprite-hola{
+      margin: 0 auto;
+    }
+    .saltar{
+      width: 71px;
+      margin: 0 auto;
+      margin-top: 15px;
+       position: relative !important;
+    }
+    .sprite-gray_2px_lin{
+      margin: 0 auto !important;
+      width: 50px;
+     
+    }
+    #tamanoCliente{
+      top: auto !important;
+      background: none;
+      
+      .pos-0{
+        margin-top: 50px !important;
+      }
+      
+      .tamano{
+        width: 100% !important;
+        padding-top: 0 !important;
+        margin-bottom: 50px !important;
+        text-align: center;
+      }
+    }
+  }
+  
+  #page{
+    
+    #header{
+     > div{
+        width: 100%;
+        text-align: center;
+     }
+      
+      .logo-wrapper{
+        
+        #logo{
+          display: inline-block;
+          float: none;
+        }
+      }
+      
+      .contact_info .social{
+        float: none;
+        text-align: center;
+        
+        a{
+          display: inline-block;
+          float: none;
+        }
+      }
+    }
+    
+    #navigation{
+      height: auto;
+      position: relative;
+      top: auto;
+      
+      #main-menu{
+        width: auto;
+        background: none;
+        height: auto;
+        
+        .links{
+          text-align: center;
+          display: inline-block;
+          
+          li{
+            display: inline-block;
+            float: none;
+          }
+        }
+      }
+    }
+    
+    .region-sidebar-second .block{
+      float: none;
+    }
+    
+    
+  }
+  
+  
+  .node-type-page #main #content{
+      padding-top: 0;
+      margin-top: 0 !important;
+   }
+  
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
