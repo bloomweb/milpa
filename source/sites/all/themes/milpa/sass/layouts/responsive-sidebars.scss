@@ -47,6 +47,13 @@ $zen-auto-include-item-base: false;
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
+  
+  #owl-example{
+    width: 430px;
+    float: right;
+    margin-top: -240px;
+    
+  }
 }
 
 /*
@@ -72,25 +79,107 @@ $zen-auto-include-item-base: false;
 #footer {
   @include zen-grid-container();
 }
+#header{
+  padding-top: 50px;
+}
+#header, #navigation{
+  padding-left: 0;
+}
+
 
 /*
  * Navigation bar
  */
 
-@media all and (min-width: 480px) {
-  #main {
-    padding-top: 3em; /* Move all the children of #main down to make room. */
-    position: relative;
-  }
-  #navigation {
-    position: absolute;
-    top: 0; /* Move the navbar up inside #main's padding. */
-    height: 3em;
-    width: $zen-grid-width;
-  }
+
+#main{
+  float: left;
+  width: 78%;
+  margin-right: 2%;
+  margin-top: 45px;
+}
+#brand-info{
+  width: 20%;
+  float: left;
 }
 
-@media all and (min-width: 480px) and (max-width: 959px) {
+
+
+@media all and (min-width: 480px) {
+
+}
+
+@media all and (min-width: 10px) and (max-width: 959px) {
+  
+  #main{
+    width: 100%;
+    margin-right: 0;
+  }
+  #content #content-body .col{
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+  body #main #content-top .filter, body .filter:hover a{
+    width: 100% !important;
+    text-align: left !important;
+  }
+  body #main #content-top .filter a{
+    width: 100%;
+    text-indent: 0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+  }
+  body #main #content-top #page-title{
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  body #brand-info{
+    display: none;
+  }
+  
+  body #page #owl-example{
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+    
+    .owl-item p{
+      padding: 0 15px;
+    }
+
+  }
+  
+  body #block-system-main-menu{
+    padding-left: 0;
+  }
+  body #block-system-main-menu ul{
+    text-align: center;
+    
+    li{
+      width: 33%;
+      padding: 0;
+      border: none;
+    }
+   
+  }
+  
+  .logo_mobile{
+    text-align: center;
+    display: block !important;
+    margin-bottom: 25px;
+  }
+  
+  body #content #content-body .brand{
+    width: 100%;
+    margin: 0 0 25px;
+    min-height: 2px;
+  }
+  
   /*
    * Use 3 grid columns for smaller screens.
    */

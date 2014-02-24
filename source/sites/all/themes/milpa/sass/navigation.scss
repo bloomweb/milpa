@@ -44,33 +44,6 @@ li a.active {
  * Navigation bar
  */
 
-#navigation {
-  /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
-
-  .block {
-    margin-bottom: 0;
-  }
-
-  .block-menu .block-title,
-  .block-menu-block .block-title {
-    @include element-invisible();
-  }
-
-  ul.links, /* Main menu and secondary menu links */
-  ul.menu { /* Menu block links */
-    margin: 0;
-    padding: 0;
-    text-align: left; /* LTR */
-
-    li { /* A simple method to get navigation links to appear in one line. */
-      float: left; /* LTR */
-      padding: 0 10px 0 0; /* LTR */
-      list-style-type: none;
-      list-style-image: none;
-    }
-  }
-}
-
 .region-navigation {
 }
 
@@ -78,7 +51,62 @@ li a.active {
  * Main menu and Secondary menu links
  */
 
-#main-menu {
+#block-system-main-menu{
+  font-family: $robotomedium;
+  background: url("../images/menu_line.png") no-repeat bottom left;
+  padding-bottom: 17px;
+  color: $gris-menu;
+  padding-left: 110px;
+  
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  
+  li{
+    border-right: 2px solid $gris-menu;
+    padding: 0 10px 0 10px;
+    list-style-image: none;
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    
+    ul{
+      left: 0;
+      padding-top: 29px;
+      position: absolute;
+      top: 22px;
+      width: 180px;
+      display: none;
+      
+      li{
+        border: none;
+      }
+      
+      a{
+        color: $amarillo;
+      }
+    }
+    
+    > a{
+      color: $gris-menu;
+    }
+    a{
+      text-decoration: none;
+      font-size: 15px;
+    }
+    a:hover, a.active{
+      color: $amarillo;
+    }
+  }
+  
+  li:hover ul{
+    display:block;
+  }
+  
+  li.last{
+    border: none;
+  }
 }
 
 #secondary-menu {

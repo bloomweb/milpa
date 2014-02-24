@@ -49,9 +49,9 @@ body {
 }
 
 #logo { /* Wrapping link for logo */
-  float: left; /* LTR */
-  margin: 0;
+  margin-top: -48px;
   padding: 0;
+  display: block;
 
   img {
     vertical-align: bottom;
@@ -93,6 +93,117 @@ body {
  */
 
 #main {
+  #content-top{
+    vertical-align: middle;
+    
+    .filter{
+      display: inline-block;
+      
+      a{
+        display: block;
+        background: $gris-menu;
+        padding: 6px 20px;
+        color: $blanco;
+        font-size: 13px;
+        margin-bottom: 5px;
+        text-indent: -999999em;
+        cursor: pointer;
+        width: 0;
+        
+        
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        
+        -webkit-border-top-right-radius: 15px;
+        -webkit-border-bottom-right-radius: 15px;
+        -moz-border-radius-topright: 15px;
+        -moz-border-radius-bottomright: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+      a:hover{
+        background: $amarillo;
+        
+      }
+     }
+     
+     .filter:hover a{
+       text-indent: 0;
+       width: 150px;
+       text-align: right;
+     }
+    
+    #page-title{
+      padding: 70px;
+      background: url("../images/conten_top_h1.png") no-repeat left top;
+      font-size: 31px;
+      color: $gris-menu;
+      font-weight: normal;
+      font-family: $robotobold;
+      line-height: 1em;
+      display: inline-block;
+      margin-left: 5%;
+      vertical-align: top;
+    }
+  }
+  
+}
+
+#brand-info{
+  text-align: right;
+  color: $gris-menu;
+  font-size: 14px;
+  line-height: 20px;
+  position: relative;
+  
+  a{
+    color: $gris-menu;
+    text-decoration: none;
+  }
+  a:hover{
+    color: $amarillo;
+  }
+  
+  .social a{
+    display: inline-block;
+  }
+}
+
+#owl-example{
+  
+  color: $gris-body;
+    font-size: 14px;
+    line-height: 20px;
+    
+  .owl-item{
+    p{
+      padding-right: 30px;
+    }
+  }
+  
+  h1{
+    font-family: $robotobold;
+    font-size: 22px;
+    color: $gris-menu;
+    font-weight: normal;
+    
+  }
+  
+  a{
+    text-decoration: none;
+    color: $gris-menu;
+  }
+  
+  a:hover, a.active{
+      color: $amarillo;
+   }
+   
+/*   .btn.prev, .btn.{
+     position: relative;
+     z-index: 999;
+}*/
 }
 
 /*
@@ -100,6 +211,48 @@ body {
  */
 
 #content {
+  
+  #content-body{
+    
+    color: $gris-body;
+    font-size: 14px;
+    line-height: 20px;
+    
+    .col{
+      width: 30%;
+      margin-right: 5%;
+      float: left;
+      margin-top: 25px;
+    }
+    .col.services{
+      margin-right: 0;
+      
+      a{
+        display: inline-block;
+        background: $amarillo;
+        padding: 4px;
+        font-family: $robotobold;
+        cursor: pointer;
+        font-size: 18px;
+        margin-bottom: 8px;
+      }
+    }
+
+    
+    .brand{
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      min-height: 160px;
+      width: 30%;
+      
+      img{
+        vertical-align: middle;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
 }
 
 .region-highlighted {
@@ -229,6 +382,18 @@ span.field-label { /* The inline field label used by the Fences module */
  */
 
 #footer {
+  font-size: 11px;
+  color: $gris-menu;
+  text-align: center;
+  margin-top: 35px;
+  
+  a{
+    color: $gris-menu;
+    text-decoration: none;
+  }
+  a:hover{
+    color: $amarillo;
+  }
 }
 
 /*

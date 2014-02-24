@@ -10,110 +10,123 @@
 
 <div id="page">
 
-  <header class="header" id="header" role="banner">
+    <header class="header" id="header" role="banner">
+		<div class="logo_mobile" style="display: none;">
+    		<img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image"/>
+    	</div>
+        <div id="navigation">
 
-    <?php if ($logo): ?>
-      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image" /></a>
-    <?php endif; ?>
+            <?php if ($main_menu): ?>
+                <nav id="main-menu" role="navigation" tabindex="-1">
+                    <?php
+                    // This code snippet is hard to modify. We recommend turning off the
+                    // "Main menu" on your sub-theme's settings form, deleting this PHP
+                    // code block, and, instead, using the "Menu block" module.
+                    // @see https://drupal.org/project/menu_block
+                    print theme('links__system_main_menu', array(
+                        'links' => $main_menu,
+                        'attributes' => array(
+                            'class' => array('links', 'inline', 'clearfix'),
+                        ),
+                        'heading' => array(
+                            'text' => t('Main menu'),
+                            'level' => 'h2',
+                            'class' => array('element-invisible'),
+                        ),
+                    )); ?>
+                </nav>
+            <?php endif; ?>
 
-    <?php if ($site_name || $site_slogan): ?>
-      <div class="header__name-and-slogan" id="name-and-slogan">
-        <?php if ($site_name): ?>
-          <h1 class="header__site-name" id="site-name">
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" class="header__site-link" rel="home"><span><?php print $site_name; ?></span></a>
-          </h1>
-        <?php endif; ?>
+            <?php print render($page['navigation']); ?>
 
-        <?php if ($site_slogan): ?>
-          <div class="header__site-slogan" id="site-slogan"><?php print $site_slogan; ?></div>
-        <?php endif; ?>
-      </div>
-    <?php endif; ?>
+        </div>
+        <?php print render($page['header']); ?>
 
-    <?php if ($secondary_menu): ?>
-      <nav class="header__secondary-menu" id="secondary-menu" role="navigation">
-        <?php print theme('links__system_secondary_menu', array(
-          'links' => $secondary_menu,
-          'attributes' => array(
-            'class' => array('links', 'inline', 'clearfix'),
-          ),
-          'heading' => array(
-            'text' => $secondary_menu_heading,
-            'level' => 'h2',
-            'class' => array('element-invisible'),
-          ),
-        )); ?>
-      </nav>
-    <?php endif; ?>
+    </header>
 
-    <?php print render($page['header']); ?>
+    <div id="main">
 
-  </header>
+        <div id="content" class="column" role="main">
+            <?php print render($page['highlighted']); ?>
+            <?php print $breadcrumb; ?>
+            <a id="main-content"></a>
 
-  <div id="main">
-        EL CATALOGO
-    <div id="content" class="column" role="main">
-      <?php print render($page['highlighted']); ?>
-      <?php print $breadcrumb; ?>
-      <a id="main-content"></a>
-      <?php print render($title_prefix); ?>
-      <?php if ($title): ?>
-        <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
-      <?php print $messages; ?>
-      <?php print render($tabs); ?>
-      <?php print render($page['help']); ?>
-      <?php if ($action_links): ?>
-        <ul class="action-links"><?php print render($action_links); ?></ul>
-      <?php endif; ?>
-      <?php print render($page['content']); ?>
-      <?php print $feed_icons; ?>
-    </div>
+            <div id="content-top">
+            	<div class="filter">
+            		<a>chiquito</a>
+            		<a>mediano</a>
+            		<a>grande</a>
+            		<a>ver todos</a>
+            	</div>
+                <?php print render($title_prefix); ?>
+                <?php if ($title): ?>
+                    <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
+                <?php endif; ?>
+                <?php print render($title_suffix); ?>
+                <?php print $messages; ?>
 
-    <div id="navigation">
+                <?php print render($page['contet_top']); ?>
 
-      <?php if ($main_menu): ?>
-        <nav id="main-menu" role="navigation" tabindex="-1">
-          <?php
-          // This code snippet is hard to modify. We recommend turning off the
-          // "Main menu" on your sub-theme's settings form, deleting this PHP
-          // code block, and, instead, using the "Menu block" module.
-          // @see https://drupal.org/project/menu_block
-          print theme('links__system_main_menu', array(
-            'links' => $main_menu,
-            'attributes' => array(
-              'class' => array('links', 'inline', 'clearfix'),
-            ),
-            'heading' => array(
-              'text' => t('Main menu'),
-              'level' => 'h2',
-              'class' => array('element-invisible'),
-            ),
-          )); ?>
-        </nav>
-      <?php endif; ?>
+            </div>
 
-      <?php print render($page['navigation']); ?>
+            <div id="content-body">
+
+                <?php print render($tabs); ?>
+                <?php print render($page['help']); ?>
+                <?php if ($action_links): ?>
+                    <ul class="action-links"><?php print render($action_links); ?></ul>
+                <?php endif; ?>
+
+                <?php print render($page['content']); ?>
+
+
+                <?php print $feed_icons; ?>
+                
+                <a class="brand" href="#"><img src="/sites/all/themes/milpa/images/logo1.png" /></a>
+                <a class="brand" href="#"><img src="/sites/all/themes/milpa/images/logo2.png" /></a>
+                <a class="brand" href="#"><img src="/sites/all/themes/milpa/images/logo3.png" /></a>
+                
+
+            </div>
+
+        </div>
+        
+        <div style="clear: both;"></div>
 
     </div>
+    <div id="brand-info">
 
-    <?php
-      // Render the sidebars to see if there's anything in them.
-      $sidebar_first  = render($page['sidebar_first']);
-      $sidebar_second = render($page['sidebar_second']);
-    ?>
+        <?php if ($logo): ?>
+            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo"
+               id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" class="header__logo-image"/></a>
 
-    <?php if ($sidebar_first || $sidebar_second): ?>
-      <aside class="sidebars">
-        <?php print $sidebar_first; ?>
-        <?php print $sidebar_second; ?>
-      </aside>
-    <?php endif; ?>
+        <?php endif; ?>
 
-  </div>
-
-  <?php print render($page['footer']); ?>
+		<p>
+			Ave. 2da oeste # 10-130
+			<br />
+			Edificio tiempo • Ofic. 801
+			<br />
+			Santa rita • Cali • Colombia
+			
+			<br /><br />
+			<a href="mailto:hola@milpastudio.com">hola@milpastudio.com</a>
+			<br />
+			t(+57) 312 795 82 33
+			
+			<div class="social">
+				<a href="#"><img src="/sites/all/themes/milpa/images/facebook.png" /></a>
+				<a href="#"><img src="/sites/all/themes/milpa/images/twitter.png" /></a>
+				<a href="#"><img src="/sites/all/themes/milpa/images/linkedin.png" /></a>
+			</div>
+		</p>
+		
+        <?php print render($page['brand_info']); ?>
+    </div>
+	
+	 <div style="clear: both;"></div>
+	
+    <?php print render($page['footer']); ?>
 
 </div>
 

@@ -35,49 +35,71 @@ li a.active {
 /*
  * Navigation bar
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000347}}
-#navigation {
-  /* overflow: hidden; */
-  /* Sometimes you want to prevent overlapping with main div. */
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000350}}
-#navigation .block {
-  margin-bottom: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000355}}
-#navigation .block-menu .block-title,
-#navigation .block-menu-block .block-title {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000360}}
-#navigation ul.links,
-#navigation ul.menu {
-  /* Menu block links */
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  /* LTR */
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000365}}
-#navigation ul.links li,
-#navigation ul.menu li {
-  /* A simple method to get navigation links to appear in one line. */
-  float: left;
-  /* LTR */
-  padding: 0 10px 0 0;
-  /* LTR */
-  list-style-type: none;
-  list-style-image: none;
-}
-
 /*
  * Main menu and Secondary menu links
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000354}}
+#block-system-main-menu {
+  font-family: "robotomedium";
+  background: url("../images/menu_line.png") no-repeat bottom left;
+  padding-bottom: 17px;
+  color: #75696d;
+  padding-left: 110px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000361}}
+#block-system-main-menu ul {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000366}}
+#block-system-main-menu li {
+  border-right: 2px solid #75696d;
+  padding: 0 10px 0 10px;
+  list-style-image: none;
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000374}}
+#block-system-main-menu li ul {
+  left: 0;
+  padding-top: 29px;
+  position: absolute;
+  top: 22px;
+  width: 180px;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000382}}
+#block-system-main-menu li ul li {
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000386}}
+#block-system-main-menu li ul a {
+  color: #ffba00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000391}}
+#block-system-main-menu li > a {
+  color: #75696d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000394}}
+#block-system-main-menu li a {
+  text-decoration: none;
+  font-size: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000398}}
+#block-system-main-menu li a:hover, #block-system-main-menu li a.active {
+  color: #ffba00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\00003103}}
+#block-system-main-menu li:hover ul {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\00003107}}
+#block-system-main-menu li.last {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\00003112}}
 #secondary-menu {
   float: right;
   /* LTR */

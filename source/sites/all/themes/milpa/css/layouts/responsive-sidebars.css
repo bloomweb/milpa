@@ -20,11 +20,18 @@
   margin-right: auto;
   max-width: 1200px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000351}}
+#page #owl-example,
+.region-bottom #owl-example {
+  width: 430px;
+  float: right;
+  margin-top: -240px;
+}
 
 /*
  * Apply the shared properties of grid items in a single, efficient ruleset.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000369}}
 #header,
 #content,
 #navigation,
@@ -59,34 +66,123 @@
   clear: both;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000382}}
+#header {
+  padding-top: 50px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000385}}
+#header, #navigation {
+  padding-left: 0;
+}
+
 /*
  * Navigation bar
  */
-@media all and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000395}}
+#main {
+  float: left;
+  width: 78%;
+  margin-right: 2%;
+  margin-top: 45px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003101}}
+#brand-info {
+  width: 20%;
+  float: left;
+}
+
+@media all and (min-width: 10px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003114}}
   #main {
-    padding-top: 3em;
-    /* Move all the children of #main down to make room. */
-    position: relative;
+    width: 100%;
+    margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\0000385}}
-  #navigation {
-    position: absolute;
-    top: 0;
-    /* Move the navbar up inside #main's padding. */
-    height: 3em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003118}}
+  #content #content-body .col {
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003122}}
+  body #main #content-top .filter, body .filter:hover a {
+    width: 100% !important;
+    text-align: left !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003126}}
+  body #main #content-top .filter a {
+    width: 100%;
+    text-indent: 0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003138}}
+  body #main #content-top #page-title {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003142}}
+  body #brand-info {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003146}}
+  body #page #owl-example {
+    margin-top: 25px;
+    text-align: center;
     width: 100%;
   }
-}
-@media all and (min-width: 480px) and (max-width: 959px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003151}}
+  body #page #owl-example .owl-item p {
+    padding: 0 15px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003157}}
+  body #block-system-main-menu {
+    padding-left: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003160}}
+  body #block-system-main-menu ul {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003163}}
+  body #block-system-main-menu ul li {
+    width: 33%;
+    padding: 0;
+    border: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003171}}
+  .logo_mobile {
+    text-align: center;
+    display: block !important;
+    margin-bottom: 25px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003177}}
+  body #content #content-body .brand {
+    width: 100%;
+    margin: 0 0 25px;
+    min-height: 2px;
+  }
+
   /*
    * Use 3 grid columns for smaller screens.
    */
   /*
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003193}}
   .sidebar-first #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: left;
@@ -94,7 +190,7 @@
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003197}}
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -106,7 +202,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003207}}
   .sidebar-second #content {
     /* Span 2 columns, starting in 1st column from left. */
     float: left;
@@ -114,7 +210,7 @@
     margin-left: 0%;
     margin-right: -66.66667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003211}}
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 3rd column from left. */
     float: left;
@@ -126,7 +222,7 @@
   /*
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003221}}
   .two-sidebars #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: left;
@@ -134,7 +230,7 @@
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003225}}
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -142,7 +238,7 @@
     margin-left: 0%;
     margin-right: -33.33333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003229}}
   .two-sidebars .region-sidebar-second {
     /* Start a new row and span all 3 columns. */
     float: left;
@@ -153,7 +249,7 @@
     padding-right: 0;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003234}}
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -163,7 +259,7 @@
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003237}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     /* Span 1 column, starting in the 1st column from left. */
     float: left;
@@ -172,7 +268,7 @@
     margin-right: -33.33333%;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003241}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     /* Span 1 column, starting in the 2nd column from left. */
     float: left;
@@ -180,7 +276,7 @@
     margin-left: 33.33333%;
     margin-right: -66.66667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003244}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     /* Span 1 column, starting in the 3rd column from left. */
     float: left;
@@ -196,7 +292,7 @@
   /*
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003262}}
   .sidebar-first #content {
     /* Span 4 columns, starting in 2nd column from left. */
     float: left;
@@ -204,7 +300,7 @@
     margin-left: 20%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003266}}
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -216,7 +312,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003276}}
   .sidebar-second #content {
     /* Span 4 columns, starting in 1st column from left. */
     float: left;
@@ -224,7 +320,7 @@
     margin-left: 0%;
     margin-right: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003280}}
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: left;
@@ -236,7 +332,7 @@
   /*
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003290}}
   .two-sidebars #content {
     /* Span 3 columns, starting in 2nd column from left. */
     float: left;
@@ -244,7 +340,7 @@
     margin-left: 20%;
     margin-right: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003294}}
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: left;
@@ -252,7 +348,7 @@
     margin-left: 0%;
     margin-right: -20%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/layouts\/responsive-sidebars\.scss}line{font-family:\00003298}}
   .two-sidebars .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: left;

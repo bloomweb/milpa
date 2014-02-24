@@ -13,7 +13,7 @@
 (function ($, Drupal, window, document, undefined) {
 
 
-// Place your code here.
+ $("#owl-example").owlCarousel();
 
 
 })(jQuery, Drupal, this, this.document);
