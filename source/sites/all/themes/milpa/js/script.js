@@ -11,9 +11,12 @@
 // - http://drupal.org/node/1446420
 // - http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth
 (function ($, Drupal, window, document, undefined) {
-
-
- $("#owl-example").owlCarousel();
-
-
+    $(function() {
+        $('#frases').cycle({
+            timeout:5000,
+            slideResize:1,
+            fit:1,
+            width:'100%'
+        });
+    });
 })(jQuery, Drupal, this, this.document);

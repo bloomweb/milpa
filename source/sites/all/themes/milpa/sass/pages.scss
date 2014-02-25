@@ -6,9 +6,7 @@
  * miscellaneous Drupal elements that appear in the $content variable, such as
  * ul.links, .pager, .more-link, etc.
  */
-
 @import "base";
-
 
 /*
  * Body
@@ -48,7 +46,8 @@ body {
 #header {
 }
 
-#logo { /* Wrapping link for logo */
+#logo {
+  /* Wrapping link for logo */
   margin-top: -48px;
   padding: 0;
   display: block;
@@ -58,11 +57,13 @@ body {
   }
 }
 
-#name-and-slogan { /* Wrapper for website name and slogan */
+#name-and-slogan {
+  /* Wrapper for website name and slogan */
   float: left;
 }
 
-#site-name { /* The name of the website */
+#site-name {
+  /* The name of the website */
   margin: 0;
   font-size: 2em;
   line-height: 1.5em;
@@ -79,12 +80,14 @@ body {
   }
 }
 
-#site-slogan { /* The slogan (or tagline) of a website */
+#site-slogan {
+  /* The slogan (or tagline) of a website */
   margin: 0;
   font-size: 1em;
 }
 
-.region-header { /* Wrapper for any blocks placed in the header region */
+.region-header {
+  /* Wrapper for any blocks placed in the header region */
   clear: both; /* Clear the logo */
 }
 
@@ -93,13 +96,13 @@ body {
  */
 
 #main {
-  #content-top{
+  #content-top {
     vertical-align: middle;
-    
-    .filter{
+
+    .filter {
       display: inline-block;
-      
-      a{
+
+      a {
         display: block;
         background: $gris-menu;
         padding: 6px 20px;
@@ -109,13 +112,12 @@ body {
         text-indent: -999999em;
         cursor: pointer;
         width: 0;
-        
-        
+
         -webkit-transition: all .5s ease-in-out;
         -moz-transition: all .5s ease-in-out;
         -o-transition: all .5s ease-in-out;
         transition: all .5s ease-in-out;
-        
+
         -webkit-border-top-right-radius: 15px;
         -webkit-border-bottom-right-radius: 15px;
         -moz-border-radius-topright: 15px;
@@ -123,19 +125,19 @@ body {
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
       }
-      a:hover{
+      a:hover {
         background: $amarillo;
-        
+
       }
-     }
-     
-     .filter:hover a{
-       text-indent: 0;
-       width: 150px;
-       text-align: right;
-     }
-    
-    #page-title{
+    }
+
+    .filter:hover a {
+      text-indent: 0;
+      width: 150px;
+      text-align: right;
+    }
+
+    #page-title {
       padding: 70px;
       background: url("../images/conten_top_h1.png") no-repeat left top;
       font-size: 31px;
@@ -147,63 +149,72 @@ body {
       margin-left: 5%;
       vertical-align: top;
     }
+
+    div#page-title {
+      padding: 0 0 0 5%;
+      width: 35%;
+      ul {
+        list-style: none;
+      }
+    }
+
   }
-  
+
 }
 
-#brand-info{
+#brand-info {
   text-align: right;
   color: $gris-menu;
   font-size: 14px;
   line-height: 20px;
   position: relative;
-  
-  a{
+
+  a {
     color: $gris-menu;
     text-decoration: none;
   }
-  a:hover{
+  a:hover {
     color: $amarillo;
   }
-  
-  .social a{
+
+  .social a {
     display: inline-block;
   }
 }
 
-#owl-example{
-  
+#owl-example {
+
   color: $gris-body;
-    font-size: 14px;
-    line-height: 20px;
-    
-  .owl-item{
-    p{
+  font-size: 14px;
+  line-height: 20px;
+
+  .owl-item {
+    p {
       padding-right: 30px;
     }
   }
-  
-  h1{
+
+  h1 {
     font-family: $robotobold;
     font-size: 22px;
     color: $gris-menu;
     font-weight: normal;
-    
+
   }
-  
-  a{
+
+  a {
     text-decoration: none;
     color: $gris-menu;
   }
-  
-  a:hover, a.active{
-      color: $amarillo;
-   }
-   
-/*   .btn.prev, .btn.{
-     position: relative;
-     z-index: 999;
-}*/
+
+  a:hover, a.active {
+    color: $amarillo;
+  }
+
+  /*   .btn.prev, .btn.{
+       position: relative;
+       z-index: 999;
+  }*/
 }
 
 /*
@@ -211,23 +222,23 @@ body {
  */
 
 #content {
-  
-  #content-body{
-    
+
+  #content-body {
+
     color: $gris-body;
     font-size: 14px;
     line-height: 20px;
-    
-    .col{
+
+    .col {
       width: 30%;
       margin-right: 5%;
       float: left;
       margin-top: 25px;
     }
-    .col.services{
+    .col.services {
       margin-right: 0;
-      
-      a{
+
+      a {
         display: inline-block;
         background: $amarillo;
         padding: 4px;
@@ -238,15 +249,14 @@ body {
       }
     }
 
-    
-    .brand{
+    .brand {
       display: inline-block;
       vertical-align: middle;
       text-align: center;
       min-height: 160px;
       width: 30%;
-      
-      img{
+
+      img {
         vertical-align: middle;
         max-width: 100%;
         height: auto;
@@ -258,7 +268,8 @@ body {
 .region-highlighted {
 }
 
-.breadcrumb { /* The path to the current page in the form of a list of links */
+.breadcrumb {
+  /* The path to the current page in the form of a list of links */
   ol {
     margin: 0;
     padding: 0;
@@ -276,19 +287,24 @@ h2.node-title, /* Title of a piece of content when it is given in a list of cont
 h2.block-title, /* Block title */
 h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
-h3.title { /* Comment title */
+h3.title {
+  /* Comment title */
   margin: 0;
 }
 
-tr.even { /* Some tables have rows marked even or odd. */
-  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+tr.even {
+  /* Some tables have rows marked even or odd. */
+  /* background-color: #eee; */
+  /* Drupal core uses a #eee background */
 }
 
 tr.odd {
-  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+  /* background-color: #eee; */
+  /* Drupal core uses a #eee background */
 }
 
-div.messages { /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
+div.messages {
+  /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
   margin: 1.5em 0; /* Drupal core uses "6px 0" margin */
 
   ul {
@@ -297,39 +313,52 @@ div.messages { /* Important messages (status, warning, and error) for the user. 
   }
 }
 
-div.status { /* Normal priority messages */
+div.status {
+  /* Normal priority messages */
 }
 
 div.warning,
-tr.warning { /* Medium priority messages */
-  /* border: 1px solid #f0c020; */ /* Drupal core uses: 1px solid #f0c020 */
+tr.warning {
+  /* Medium priority messages */
+  /* border: 1px solid #f0c020; */
+  /* Drupal core uses: 1px solid #f0c020 */
 }
 
 div.error,
-tr.error { /* High priority messages. See also the .error declaration below. */
+tr.error {
+  /* High priority messages. See also the .error declaration below. */
 }
 
-.error { /* Errors that are separate from div.messages status messages. */
-  /* color: #e55; */ /* Drupal core uses a #e55 background */
+.error {
+  /* Errors that are separate from div.messages status messages. */
+  /* color: #e55; */
+  /* Drupal core uses a #e55 background */
 }
 
-.warning { /* Warnings that are separate from div.messages status messages. */
-  /* color: #e09010; */ /* Drupal core uses a #e09010 background */
+.warning {
+  /* Warnings that are separate from div.messages status messages. */
+  /* color: #e09010; */
+  /* Drupal core uses a #e09010 background */
 }
 
-.tabs { /* See also the tabs.css file. */
+.tabs {
+  /* See also the tabs.css file. */
 }
 
-.region-help { /* Help text on a page */
+.region-help {
+  /* Help text on a page */
 }
 
-.more-help-link { /* Link to more help */
+.more-help-link {
+  /* Link to more help */
 }
 
-.region-content { /* Wrapper for the actual page content */
+.region-content {
+  /* Wrapper for the actual page content */
 }
 
-ul.inline { /* List of links generated by theme_links() */
+ul.inline {
+  /* List of links generated by theme_links() */
   display: inline;
   padding: 0;
 
@@ -339,22 +368,28 @@ ul.inline { /* List of links generated by theme_links() */
     padding: 0 1em 0 0; /* LTR */
   }
 }
-span.field-label { /* The inline field label used by the Fences module */
+
+span.field-label {
+  /* The inline field label used by the Fences module */
   padding: 0 1em 0 0; /* LTR */
 }
 
-.item-list .pager { /* A list of page numbers when more than 1 page of content is available */
+.item-list .pager {
+  /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 
-  li { /* Each page number in the pager list */
+  li {
+    /* Each page number in the pager list */
     padding: 0 0.5em;
   }
 }
 
-.feed-icon { /* The link to the RSS or Atom feed for the current list of content */
+.feed-icon {
+  /* The link to the RSS or Atom feed for the current list of content */
 }
 
-.more-link { /* Aggregator, blog, and forum more link */
+.more-link {
+  /* Aggregator, blog, and forum more link */
 }
 
 /*
@@ -386,12 +421,12 @@ span.field-label { /* The inline field label used by the Fences module */
   color: $gris-menu;
   text-align: center;
   margin-top: 35px;
-  
-  a{
+
+  a {
     color: $gris-menu;
     text-decoration: none;
   }
-  a:hover{
+  a:hover {
     color: $amarillo;
   }
 }
@@ -400,5 +435,6 @@ span.field-label { /* The inline field label used by the Fences module */
  * Page bottom
  */
 
-.region-bottom { /* Wrapper for any blocks placed in the page bottom region */
+.region-bottom {
+  /* Wrapper for any blocks placed in the page bottom region */
 }
