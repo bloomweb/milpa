@@ -7,7 +7,6 @@
  * @see https://drupal.org/node/1728148
  */
 ?>
-
 <div id="page">
 
     <header class="header" id="header" role="banner">
@@ -53,12 +52,12 @@
             <a id="main-content"></a>
 
             <div id="content-top">
-            	<div class="filter">
+            	<!--<div class="filter">
             		<a>chiquito</a>
             		<a>mediano</a>
             		<a>grande</a>
             		<a>ver todos</a>
-            	</div>
+            	</div>-->
                 <?php print render($title_prefix); ?>
                 <?php if ($title): ?>
                     <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
@@ -86,24 +85,31 @@
                 <article>
                 
 	                <div class="col">
-	                	
-					nos gusta labrar los terrenos para sembrar semillas que dan frutos; a partir de una estrategia, con creatividad convertimos tu marca en un ser vivo, definido, coherente, auténtico, capaz no sólo de relacionarse con las 
+		                <?php
+			                if(isset($node->field_columna_izquierda['und'][0]['value'])) {
+				                print $node->field_columna_izquierda['und'][0]['value'];
+			                }
+		                ?>
+		                <!--nos gusta labrar los terrenos para sembrar semillas que dan frutos; a partir de una estrategia, con creatividad convertimos tu marca en un ser vivo, definido, coherente, auténtico, capaz no sólo de relacionarse con las
 					personas a su alrededor sino de enamorar a su público objetivo, logrando posicionamiento y fidelidad.
 					<br /><br />
 					nuestro proceso parte de una investigación que traducimos a una estrategia de donde se desprenden miles de posibilidades creativas para conectar a las marcas con las personas de forma constructiva y sostenible, apuntándole al desarrollo de la sociedad y -por supuesto- al incremento de las ventas.
 					<br /><br />
-					creemos en la gente, en el equilibrio, la transparencia, la excelencia, el trasnocho, la familia, el trabajo en equipo y somos amantes del poder del diseño en la comunicación, el cual consideramos una herramienta poderosa para lograr cambios positivos en nuestro entorno.
-					
+					creemos en la gente, en el equilibrio, la transparencia, la excelencia, el trasnocho, la familia, el trabajo en equipo y somos amantes del poder del diseño en la comunicación, el cual consideramos una herramienta poderosa para lograr cambios positivos en nuestro entorno.-->
 	                </div>
 	                <div class="col">
-	                	
-					sociedad y -por supuesto- al incremento de las ventas.
-					<br /><br />
-					creemos en la gente, en el equilibrio, la transparencia, la excelencia, el trasnocho, la familia, el trabajo en equipo y somos amantes del poder del diseño en la comunicación, el cual consideramos una herramienta poderosa para lograr cambios positivos en nuestro entorno.
-					<br /><br />
-					creemos que tu marca también puede hacer la diferencia. 
-					hablemos!
-	
+		                <?php
+			                if(isset($node->field_columna_derecha['und'][0]['value'])) {
+				                print $node->field_columna_derecha['und'][0]['value'];
+			                }
+		                ?>
+		                <!--sociedad y -por supuesto- al incremento de las ventas.
+						<br /><br />
+						creemos en la gente, en el equilibrio, la transparencia, la excelencia, el trasnocho, la familia, el trabajo en equipo y somos amantes del poder del diseño en la comunicación, el cual consideramos una herramienta poderosa para lograr cambios positivos en nuestro entorno.
+						<br /><br />
+						creemos que tu marca también puede hacer la diferencia.
+						hablemos!-->
+
 	                </div>
 	                
 	                <div class="col services">
@@ -120,7 +126,6 @@
 					<a>estrategias creativas de comunicación</a>
 	
 	                </div>
-                
                 </article>
                 
 
@@ -146,23 +151,18 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			var owl = $("#owl-demo");
- 
-		  $("#owl-example").owlCarousel({
-		  	items : 2
-		  	
-		  });
-		  $(".next").click(function(){
-		    owl.trigger('owl.next');
-		  })
-		  $(".prev").click(function(){
-		    owl.trigger('owl.prev');
-		  })
-		 
+			$("#owl-example").owlCarousel({
+				items : 2
+		  	});
+			$(".next").click(function(){
+				owl.trigger('owl.next');
+			});
+			$(".prev").click(function(){
+				owl.trigger('owl.prev');
+			});
 		});
 	</script>
-    
-    
-    
+
     <div id="brand-info">
 
         <?php if ($logo): ?>
@@ -177,17 +177,17 @@
 			Edificio tiempo • Ofic. 801
 			<br />
 			Santa rita • Cali • Colombia
-			
-			<br /><br />
+
+			<br />
+			<br />
 			<a href="mailto:hola@milpastudio.com">hola@milpastudio.com</a>
 			<br />
 			t(+57) 312 795 82 33
-			
-			<div class="social">
-				<a href="#"><img src="/sites/all/themes/milpa/images/facebook.png" /></a>
-				<a href="#"><img src="/sites/all/themes/milpa/images/twitter.png" /></a>
-				<a href="#"><img src="/sites/all/themes/milpa/images/linkedin.png" /></a>
-			</div>
+		    <div class="social">
+			    <a href="#"><img src="/sites/all/themes/milpa/images/facebook.png" /></a>
+			    <a href="#"><img src="/sites/all/themes/milpa/images/twitter.png" /></a>
+			    <a href="#"><img src="/sites/all/themes/milpa/images/linkedin.png" /></a>
+		    </div>
 		</p>
 		
         <?php print render($page['brand_info']); ?>
@@ -195,8 +195,10 @@
     <!--<a class="btn prev"><img src="/sites/all/themes/milpa/images/left.png" /></a>
     <a class="btn next"><img src="/sites/all/themes/milpa/images/right.png" /></a>-->
     <div id="owl-example" class="owl-carousel">
-    	
-	  	<div>
+	    <?php
+		    print views_embed_view('personas', 'block_personas');
+	    ?>
+	  	<!--<div>
 			<img src="sites/all/themes/milpa/images/ingrid.jpg" />
 			<h1>ingrid claussen</h1>
 			<p>
@@ -255,8 +257,7 @@
 				<br /><br />
 				<a href="#">iclaussen@milpaestudio.com</a>
 			</p>
-		</div>
-		
+		</div>-->
 	</div>
 	
 	 <div style="clear: both;"></div>
