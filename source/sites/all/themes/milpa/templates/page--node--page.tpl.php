@@ -7,7 +7,6 @@
 	 * @see https://drupal.org/node/1728148
 	 */
 ?>
-<?php drupal_add_library('jquery_plugin', 'cycle'); ?>
 	<div id="page">
 
 		<header class="header" id="header" role="banner">
@@ -60,11 +59,20 @@
 					?>
 					<div class="page__title title" id="page-title">
 						<?php if(isset($node->field_frases['und'][0])): ?>
-							<ul id="frases">
+							<div
+								id="frases"
+								class="cycle-slideshow"
+								data-cycle-fx="fade"
+								data-cycle-timeout="10000"
+								data-cycle-speed="2000"
+								data-cycle-slides="> div"
+							    data-cycle-random="true"
+							    data-cycle-sync="false"
+							>
 								<?php foreach($node->field_frases['und'] as $key => $value): ?>
-									<li class="frase"><?php print $value['value']; ?></li>
+									<div class="frase"><p><?php print $value['value']; ?></p></div>
 								<?php endforeach; ?>
-							</ul>
+							</div>
 						<?php endif; ?>
 					</div>
 					<?php print render($title_suffix); ?>
@@ -105,19 +113,14 @@
 						</div>
 
 						<div class="col services">
-							<a>estrategia de marca</a>
-							<br/>
-							<a>creación de marca</a>
-							<br/>
-							<a>identidad corporativa</a>
-							<br/>
-							<a>revitalización de marca</a>
-							<br/>
-							<a>consultoría</a>
-							<br/>
-							<a>estrategias creativas de comunicación</a>
-
+							<?php
+								$servicios = taxonomy_get_tree(3);
+								foreach($servicios as $key => $servicio) :
+							?>
+							<a class="service" href="#" rel="<?php print $servicio->tid; ?>"><?php print $servicio->name; ?></a><br />
+							<?php endforeach; ?>
 						</div>
+
 					</article>
 
 
@@ -128,17 +131,6 @@
 			<div style="clear: both;"></div>
 
 		</div>
-
-		<!-- Important Owl stylesheet -->
-		<link rel="stylesheet" href="sites/all/themes/milpa/css/owl.carousel.css">
-
-		<!-- Default Theme -->
-		<link rel="stylesheet" href="sites/all/themes/milpa/css/owl.theme.css">
-
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-
-		<!-- Include js plugin -->
-		<script src="sites/all/themes/milpa/js/owl.carousel.min.js"></script>
 
 		<div id="brand-info">
 
@@ -174,14 +166,6 @@
 		<div id="owl-example" class="owl-carousel">
 			<?php print views_embed_view('personas', 'block_personas'); ?>
 		</div>
-		<script type="text/javascript">
-			$(function() {
-				$owl = $("#owl-example");
-				$owl.owlCarousel({
-					items: 2
-				});
-			});
-		</script>
 		<div style="clear: both;"></div>
 
 		<?php print render($page['footer']); ?>

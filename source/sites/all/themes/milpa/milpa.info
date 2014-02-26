@@ -62,6 +62,8 @@ stylesheets[all][] = css/comments.css
 stylesheets[all][] = css/forms.css
 stylesheets[all][] = css/fields.css
 stylesheets[all][] = css/print.css
+stylesheets[all][] = css/owl.carousel.css
+stylesheets[all][] = css/owl.theme.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html
@@ -77,6 +79,10 @@ stylesheets[all][] = css/print.css
 
 ; Optionally add some JavaScripts to your theme.
 
+scripts[] = js/jquery-1.9.1.min.js
+scripts[] = js/jquery.cookie.js
+scripts[] = js/jquery.cycle2.min.js
+scripts[] = js/owl.carousel.min.js
 scripts[] = js/script.js
 
 

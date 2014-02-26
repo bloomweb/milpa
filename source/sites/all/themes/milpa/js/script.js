@@ -11,12 +11,50 @@
 // - http://drupal.org/node/1446420
 // - http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth
 (function ($, Drupal, window, document, undefined) {
+
+    // Tamaños de compañía
     $(function() {
-        $('#frases').cycle({
-            timeout:5000,
-            slideResize:1,
-            fit:1,
-            width:'100%'
-        });
+        try {
+            $companySize = $('.size-filter');
+            $companySize.click(function(e) {
+                e.preventDefault();
+                $.cookie('tipo_cliente', $(this).attr('rel'), { expires: 1, path: '/' });
+                window.location = window.location.pathname;
+                /*pathname = window.location.pathname;
+                if (pathname.indexOf('los-proyectos') != -1) {
+                    window.location = "/los-proyectos";
+                }
+                if (pathname.indexOf('nuestros-clientes') != -1) {
+                    window.location = "/nuestros-clientes";
+                }*/
+            });
+        } catch (err) {
+            console.log(err);
+        }
     });
+
+    // Servicios
+    $(function() {
+        try {
+            $service = $('.service');
+            $service.click(function(e) {
+                e.preventDefault();
+            });
+        } catch (err) {
+            console.log(err);
+        }
+    });
+
+    // Slider personas
+    $(function() {
+        try {
+            $owl = $("#owl-example");
+            $owl.owlCarousel({
+                items: 2
+            });
+        } catch (err) {
+            console.log(err);
+        }
+    });
+
 })(jQuery, Drupal, this, this.document);
