@@ -70,8 +70,8 @@
 				>
 					<?php print views_embed_view('testimonios', 'block_testimonios'); ?>
 				</div>
-				<div style="clear: both;"></div>
 				<?php endif; ?>
+				<div style="clear: both;"></div>
 				<?php /* print render($title_prefix); ?>
                 <?php if ($title): ?>
                     <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
