@@ -76,6 +76,9 @@ $robotobold:      "robotobold";
 $robotomedium:    "robotomedium";
 $robotoregular:   "robotoregular";
 
+$adobeCaslonProItalic: "adobe_caslon_proitalic";
+$dkWayang: 'dk_wayangregular';
+
 
 // Now create some variables for the font stacks we want to use on this site.
 $base-font-family: $robotoregular; // The font family set on the html element.
@@ -91,6 +94,7 @@ $gris-menu: #75696d;
 $gris-body: #4f4e4f;
 $amarillo: #ffba00;
 $blanco: #fff;
+$gris-home:#61565A;
 
 // The amount lists, blockquotes and comments are indented.
 $indent-amount: 30px;

@@ -15,6 +15,7 @@
 body {
   margin: 0;
   padding: 0;
+  color:$gris-body;
 }
 
 #page {
@@ -48,7 +49,7 @@ body {
 
 #logo {
   /* Wrapping link for logo */
-  margin-top: -48px;
+  margin-top: -55px;
   padding: 0;
   display: block;
 
@@ -91,13 +92,61 @@ body {
   clear: both; /* Clear the logo */
 }
 
+#size-filters {
+  position: fixed;
+  display: inline;
+  left: 0;
+  top:90px;
+
+  a {
+    display: block;
+    background: $gris-menu;
+    padding: 6px 13px;
+    color: $blanco;
+    font-size: 13px;
+    margin-bottom: 5px;
+    text-indent: -999999em;
+    text-decoration: none;
+    cursor: pointer;
+    width: 0;
+
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+
+    -webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  a:hover,
+  a.active{
+    background: $amarillo;
+  }
+
+
+}
+
+#size-filters:hover a {
+  text-indent: 0;
+  width: 150px;
+  text-align: right;
+}
+
 /*
  * Main (container for everything else)
  */
 
 #main {
+
   #content-top {
     vertical-align: middle;
+    padding-left: 75px;
 
     #testimonios {
       display: inline;
@@ -108,14 +157,20 @@ body {
         width: 100%;
       }
       .field-name-field-testimonio {
-        color: #000000;
+
+
         p {
           margin-top: 15px;
           text-align: justify;
+          margin-bottom: 10px;
+        }
+        p:first-child{
+          margin-top: 0px;
+
         }
       }
       .field-name-title {
-        color: #000000;
+
         text-align: right;
         h4 {
           font-weight: normal;
@@ -123,55 +178,16 @@ body {
         }
       }
       .field-name-field-cargo {
-        color: #000000;
+
         text-align: right;
       }
       .field-name-field-empresa {
-        color: #000000;
+
         text-align: right;
       }
     }
 
-    .size-filters {
-      display: inline;
-      float: left;
 
-      a {
-        display: block;
-        background: $gris-menu;
-        padding: 6px 20px;
-        color: $blanco;
-        font-size: 13px;
-        margin-bottom: 5px;
-        text-indent: -999999em;
-        text-decoration: none;
-        cursor: pointer;
-        width: 0;
-
-        -webkit-transition: all .5s ease-in-out;
-        -moz-transition: all .5s ease-in-out;
-        -o-transition: all .5s ease-in-out;
-        transition: all .5s ease-in-out;
-
-        -webkit-border-top-right-radius: 15px;
-        -webkit-border-bottom-right-radius: 15px;
-        -moz-border-radius-topright: 15px;
-        -moz-border-radius-bottomright: 15px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-      }
-
-      a:hover {
-        background: $amarillo;
-      }
-
-    }
-
-    .size-filters:hover a {
-      text-indent: 0;
-      width: 150px;
-      text-align: right;
-    }
 
     #page-title {
       padding: 70px;
@@ -220,15 +236,22 @@ body {
   }
 }
 
-#owl-example {
+#main #content #owl-example {
 
   color: $gris-body;
   font-size: 14px;
   line-height: 20px;
 
   .owl-item {
+
+    font-size: 11px;
     p {
       padding-right: 30px;
+    }
+
+    a.person-email{
+      font-size: 11px;
+      background: white;
     }
   }
 
@@ -262,7 +285,7 @@ body {
 #content {
 
   #content-body {
-
+    padding-left: 75px;
     color: $gris-body;
     font-size: 14px;
     line-height: 20px;
@@ -271,15 +294,19 @@ body {
       width: 30%;
       margin-right: 5%;
       float: left;
-      margin-top: 25px;
+     // margin-top: 25px;
     }
+    .col.double{
+      width: 60%;
+    }
+
     .col.services {
       margin-right: 0;
 
       a {
         display: inline-block;
         background: $amarillo;
-        padding: 4px;
+        padding: 0 4px;
         font-family: $robotobold;
         cursor: pointer;
         font-size: 18px;
@@ -478,3 +505,267 @@ span.field-label {
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
 }
+
+.line{
+  width: 100%;
+  height: 1px;
+  border-bottom: $gris-body 1px solid;
+  margin: 0;
+  padding: 0;
+}
+
+#testimonios{
+  text-align: right;
+  font-size: 12px;
+  line-height: 15px;
+  .field-name-field-testimonio{
+    text-align: left;
+    font-family: $adobeCaslonProItalic;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+  }
+  .persona-testimonio{
+    margin: 25px 0 0 0 ;
+    font-weight: normal;
+  }
+
+}
+#content-top #testimonios{
+
+  .field-name-field-testimonio{
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+
+
+.view-display-id-clientes_como_tu{
+  $height:160px;
+  min-height: 200px;
+  .views-row{
+    float: left;
+    width: 30%;
+    height: $height;
+    margin-bottom: 53px;
+  }
+
+  .logos-cliente{
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: $height;
+
+    .field-name-field-logo,
+    .field-name-field-logo-bn{
+      position: absolute;
+      top:0;
+      cursor: pointer;
+
+    }
+
+    .field-name-field-logo{
+      display: none;
+    }
+
+  }
+  .logos-cliente:hover{
+    .field-name-field-logo{
+      display: block;
+      z-index: 1;
+    }
+  }
+
+}
+/* SPECIFIC PAGES SYTLES */
+/*FRONT PAGE STYLES*/
+.front #main {
+  float: none;
+  margin: 0 auto;
+  #content {
+
+    padding: 0;
+    margin: 0 auto;
+    max-width: 957px;
+    position: relative;
+    height: 690px;
+
+  }
+  a {
+    color:$gris-body;
+    font-family: $dkWayang;
+    text-decoration: none;
+  }
+  .hola-message{
+    color:$gris-home;
+    .texto-hola{
+      font-family: $robotobold;
+      font-size: 108px;
+      line-height: 108px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .texto-quien-eres{
+      font-family: robotoregular;
+      font-weight: lighter;
+      font-size: 47px;
+      line-height: 47px;
+      margin-bottom: 15px;
+
+      .sprite-gray_2px_lin {
+        display: block;
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 12px;
+      }
+
+    }
+  }
+  .saltar {
+
+    font-size: 22px;
+    padding: 10px 0 8px 19px;
+    display: block;
+    position: absolute;
+    z-index: 2;
+
+  }
+  .sprite-gray_2px_lin {
+    margin-left: 19px;
+    margin-top: 54px;
+  }
+
+  .select-company-size {
+
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 10px;
+
+    .sprite-gray_2px_lin {
+      margin-left: 0;
+      margin-top: 2px;
+    }
+
+  }
+  .open .select-company-size {
+    color: $amarillo;
+  }
+
+  #tamanoCliente {
+
+    position: relative;
+    width: 100%;
+    top: -86px;
+
+    .tamano {
+
+      float: left;
+      padding: 0;
+      margin: 0;
+      padding-left: 1%;
+      margin-right: 10%;
+      width: 25%;
+      padding-top: 281px;
+      cursor: pointer;
+
+      span.arrow {
+        display: inline-block;
+        line-height: 31px;
+      }
+
+      .nombre {
+
+        text-transform: lowercase;
+        font-size: 31px;
+        font-weight: bold;
+        margin-bottom: 17px;
+      }
+
+      .texto {
+      }
+
+    }
+
+    .tamano.pos-0 {
+      // Primer tamano
+      margin-top: 95px;
+      padding-top: 281px - 95px;
+    }
+    .tamano.pos-1 {
+      // Primer tamano
+      margin-left: 1%;
+      padding-right: 1%;
+    }
+
+    .tamano.pos-2 {
+      margin-right: 0;
+
+    }
+
+  }
+  #footer {
+
+    text-align: center;
+    font-family: $adobeCaslonProItalic;
+    font-size: 22px;
+    color: $gris-body;
+    clear: both;
+
+  }
+}
+
+.page-node{
+
+  #main{
+    margin-top: 35px;
+  }
+
+}
+
+.node-type-cliente{
+  #main{
+    margin-top: 105px;
+  }
+
+  #testimonios{
+    p:first-child{
+      margin-top: 0;
+    }
+    .field-name-field-cargo,
+    .field-name-field-empresa {
+      display: inline-block;
+      margin-left: 5px;
+    }
+    .persona-testimonio:after{
+      content:","
+    }
+    .persona-testimonio:before{
+      content:"- "
+    }
+  }
+
+  .line{
+    margin: 31px 0;
+  }
+
+  .col.double{
+    text-align: center;
+    img{
+      margin-bottom: 35px;
+    }
+  }
+
+}
+
+.section-nuestros-clientes{
+
+  #content #content-body{
+    padding-top: 50px;
+    min-height: 200px;
+  }
+
+
+
+}
+

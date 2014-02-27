@@ -6,6 +6,7 @@
 	 * Complete documentation for this file is available online.
 	 * @see https://drupal.org/node/1728148
 	 */
+$tipoCliente = isset($_COOKIE["tipo_cliente"]) && !empty($_COOKIE["tipo_cliente"])?$_COOKIE["tipo_cliente"]:"all";
 ?>
 <div id="page">
 
@@ -42,21 +43,24 @@
 		<?php print render($page['header']); ?>
 
 	</header>
+    <div id="size-filters">
+        <a class="size-filter <?php if($tipoCliente== 3) print "active" ?>" href="#" rel="3">chiquito</a>
+        <a class="size-filter <?php if($tipoCliente== 2) print "active" ?>" href="#" rel="2">mediano</a>
+        <a class="size-filter <?php if($tipoCliente== 1) print "active" ?>" href="#" rel="1">grande</a>
+        <a class="size-filter <?php if($tipoCliente== "all" ) print "active" ?>" href="#" rel="all">ver todos</a>
+    </div>
 
 	<div id="main">
 
-		<div id="content" class="column" role="main">
+
+
+        <div id="content" class="column" role="main">
 			<?php print render($page['highlighted']); ?>
 			<?php print $breadcrumb; ?>
 			<a id="main-content"></a>
 
 			<div id="content-top">
-				<div class="size-filters">
-					<a class="size-filter" href="#" rel="3">chiquito</a>
-					<a class="size-filter" href="#" rel="2">mediano</a>
-					<a class="size-filter" href="#" rel="1">grande</a>
-					<a class="size-filter" href="#" rel="all">ver todos</a>
-				</div>
+
 				<?php if($node->nid == 22): ?>
 				<div
 					id="testimonios"

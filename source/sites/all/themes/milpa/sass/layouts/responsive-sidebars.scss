@@ -49,8 +49,9 @@ $zen-auto-include-item-base: false;
   max-width: 1200px;
   
   #owl-example{
-    width: 430px;
-    float: right;
+    width: 468px;
+    margin-top: 90px;
+    //float: right;
     //margin-top: -240px;
   }
 }
@@ -66,7 +67,7 @@ $zen-auto-include-item-base: false;
 .region-sidebar-first,
 .region-sidebar-second,
 #footer {
-  @include zen-grid-item-base();
+ // @include zen-grid-item-base();
 }
 
 /*
@@ -79,7 +80,7 @@ $zen-auto-include-item-base: false;
   @include zen-grid-container();
 }
 #header{
-  padding-top: 50px;
+  padding-top: 32px;
 }
 #header, #navigation{
   padding-left: 0;
