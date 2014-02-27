@@ -34,5 +34,11 @@
     <?php print $field->content; ?>
   <?php print $field->wrapper_suffix; ?>
 <?php endforeach; */ ?>
-
-<?php $uno = 1; ?>
+<div class="proyecto-imagen">
+	<?php print $fields['field_imagen_catalogo']->content; ?>
+</div>
+<div class="proyecto-info">
+	<?php print $fields['title']->content; ?>
+	<?php print $fields['field_categoria']->content; ?>
+	<?php print $fields['view_node']->content; ?>
+</div>
