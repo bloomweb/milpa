@@ -129,4 +129,42 @@
         }
     });
 
+    //Catalogo
+    $(function(){
+        var viewPortHeight = 180;
+        $.each($(".section-el-trabajo .proyecto img"),function(i,val){
+            height = $(val).height();
+
+
+            if( height > viewPortHeight){
+                $(val).height(viewPortHeight).width("auto");
+
+            }else if(height < viewPortHeight){
+                padding = (viewPortHeight -height)/2;
+                $(val).css({"padding-top":padding,"padding-bottom":padding});
+
+            }else{ // la imagen mide exactamente 180px
+
+            }
+
+        });
+        topAnimation = viewPortHeight+2;
+        $(".section-el-trabajo .proyecto .contenedor").hover(
+            function(){
+                $(this).animate({
+                    top: "-="+topAnimation
+                }, 500, function() {
+                    // Animation complete.
+                });
+            },
+            function(){
+                $(this).animate({
+                    top: 0
+                }, 500, function() {
+                    // Animation complete.
+                });
+            }
+        );
+    });
+
 })(jQuery, Drupal, this, this.document);

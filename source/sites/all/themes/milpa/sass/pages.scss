@@ -772,3 +772,63 @@ span.field-label {
 
 }
 
+.section-el-trabajo{
+  .proyectos{
+    clear:both;
+  }
+
+  .proyecto{
+    $height: 180px;
+    height: $height;
+    width: 31%;
+    position:relative;
+    float:left;
+    overflow: hidden;
+    .contenedor{
+      position: absolute;
+      top:0;
+      width: 100%;
+
+
+    }
+    .proyecto-imagen{
+      width: 100%;
+      text-align: center;
+      image{
+        max-width: 100%;
+        max-height: $height;
+      }
+    }
+
+    .proyecto-info{
+      padding-top: 2px;
+      width: 100%;
+      background: white;
+
+
+      h2{
+        font-size: 15px;
+        margin-bottom: 0;
+      }
+
+      .item-list ul{
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+
+        li{
+          list-style: none;
+        }
+      }
+
+      a{
+        color:$gris-body;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+    }
+
+  }
+
+}

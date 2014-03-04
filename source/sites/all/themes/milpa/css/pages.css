@@ -747,3 +747,59 @@ span.field-label {
   padding-top: 50px;
   min-height: 200px;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003776}}
+.section-el-trabajo .proyectos {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003780}}
+.section-el-trabajo .proyecto {
+  height: 180px;
+  width: 31%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003787}}
+.section-el-trabajo .proyecto .contenedor {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003794}}
+.section-el-trabajo .proyecto .proyecto-imagen {
+  width: 100%;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003797}}
+.section-el-trabajo .proyecto .proyecto-imagen image {
+  max-width: 100%;
+  max-height: 180px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003803}}
+.section-el-trabajo .proyecto .proyecto-info {
+  padding-top: 2px;
+  width: 100%;
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003809}}
+.section-el-trabajo .proyecto .proyecto-info h2 {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003814}}
+.section-el-trabajo .proyecto .proyecto-info .item-list ul {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003819}}
+.section-el-trabajo .proyecto .proyecto-info .item-list ul li {
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003824}}
+.section-el-trabajo .proyecto .proyecto-info a {
+  color: #4f4e4f;
+  font-weight: bold;
+  text-decoration: none;
+}

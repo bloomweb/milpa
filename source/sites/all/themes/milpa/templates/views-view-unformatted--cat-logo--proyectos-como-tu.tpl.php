@@ -16,6 +16,8 @@
 <?php endforeach; */ ?>
 <?php foreach ($rows as $id => $row): ?>
     <div class="proyecto">
-        <?php print $row; ?>
+        <div class="contenedor">
+            <?php print $row; ?>
+        </div>
     </div>
 <?php endforeach; ?>
