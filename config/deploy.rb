@@ -1,22 +1,22 @@
 # INITIAL CONFIGURATION
 default_run_options[:pty] = true # Para pedir la contraseña de la llave publica de github via consola, sino sale error de llave publica.
-set :application, "milpa.bloomweb.co"
+set :application, "milpa2.bloomweb.co"
 #set :export, :remote_cache
 set :keep_releases, 5
 #set :cakephp_app_path, "app"
 #set :cakephp_core_path, "cake"
 
 # DEPLOYMENT DIRECTORY STRUCTURE
-set :deploy_to, "/home/embalao/milpa.bloomweb.co"
+set :deploy_to, "/home/embalao/milpa2.bloomweb.co"
 
 # USER & PASSWORD
 set :user, 'embalao'
 set :password, 'Luci@na2012'
 
 # ROLES
-role :app, "milpa.bloomweb.co"
-role :web, "milpa.bloomweb.co"
-role :db, "milpa.bloomweb.co", :primary => true
+role :app, "milpa2.bloomweb.co"
+role :web, "milpa2.bloomweb.co"
+role :db, "milpa2.bloomweb.co", :primary => true
 
 # VERSION TRACKER INFORMATION
 set :scm, :git
@@ -32,9 +32,9 @@ namespace :deploy do
   task :stop do ; end
   
   task :restart, :roles => :app, :except => { :no_release => true } do
-    run "cp /home/embalao/milpa.bloomweb.co/current/source/. /home/embalao/milpa.bloomweb.co/ -R"
-    run "chmod 777 /home/embalao/milpa.bloomweb.co/sites/default/files -R"
-    run "chmod 644 /home/embalao/milpa.bloomweb.co/sites/default/files/.htaccess"
+    run "cp /home/embalao/milpa2.bloomweb.co/current/source/. /home/embalao/milpa2.bloomweb.co/ -R"
+    run "chmod 777 /home/embalao/milpa2.bloomweb.co/sites/default/files -R"
+    run "chmod 644 /home/embalao/milpa2.bloomweb.co/sites/default/files/.htaccess"
   end
   
 end
