@@ -495,6 +495,16 @@ span.field-label {
   a:hover {
     color: $amarillo;
   }
+  p{
+    margin:0;
+    padding: 0;
+  }
+
+  img{
+    line-height: 10px;
+    vertical-align: middle;
+    margin: -2px 3px 0 0;
+  }
 }
 
 /*
@@ -778,12 +788,15 @@ span.field-label {
   }
 
   .proyecto{
-    $height: 180px;
+
+    $height: 200px;
     height: $height;
     width: 31%;
     position:relative;
     float:left;
     overflow: hidden;
+    margin-bottom: 40px;
+
     .contenedor{
       position: absolute;
       top:0;
@@ -802,9 +815,10 @@ span.field-label {
 
     .proyecto-info{
       padding-top: 2px;
-      width: 100%;
+      width: 98%;
       background: white;
-
+      padding-left: 2%;
+      height: $height;
 
       h2{
         font-size: 15px;
@@ -825,6 +839,7 @@ span.field-label {
         color:$gris-body;
         font-weight: bold;
         text-decoration: none;
+        font-size: 12px;
       }
 
     }

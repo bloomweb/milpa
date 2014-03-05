@@ -494,16 +494,27 @@ span.field-label {
 #footer a:hover {
   color: #ffba00;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003498}}
+#footer p {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003503}}
+#footer img {
+  line-height: 10px;
+  vertical-align: middle;
+  margin: -2px 3px 0 0;
+}
 
 /*
  * Page bottom
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003504}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003514}}
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003508}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003518}}
 .line {
   width: 100%;
   height: 1px;
@@ -512,13 +523,13 @@ span.field-label {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003516}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003526}}
 #testimonios {
   text-align: right;
   font-size: 12px;
   line-height: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003530}}
 #testimonios .field-name-field-testimonio {
   text-align: left;
   font-family: "adobe_caslon_proitalic";
@@ -526,48 +537,48 @@ span.field-label {
   line-height: 18px;
   letter-spacing: 0.5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003527}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003537}}
 #testimonios .persona-testimonio {
   margin: 25px 0 0 0;
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003536}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003546}}
 #content-top #testimonios .field-name-field-testimonio {
   font-size: 23px;
   line-height: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003543}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003553}}
 .view-display-id-clientes_como_tu {
   min-height: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003546}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003556}}
 .view-display-id-clientes_como_tu .views-row {
   float: left;
   width: 30%;
   height: 160px;
   margin-bottom: 53px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003553}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003563}}
 .view-display-id-clientes_como_tu .logos-cliente {
   position: relative;
   text-align: center;
   vertical-align: middle;
   line-height: 160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003571}}
 .view-display-id-clientes_como_tu .logos-cliente .field-name-field-logo,
 .view-display-id-clientes_como_tu .logos-cliente .field-name-field-logo-bn {
   position: absolute;
   top: 0;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003568}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003578}}
 .view-display-id-clientes_como_tu .logos-cliente .field-name-field-logo {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003574}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003584}}
 .view-display-id-clientes_como_tu .logos-cliente:hover .field-name-field-logo {
   display: block;
   z-index: 1;
@@ -575,12 +586,12 @@ span.field-label {
 
 /* SPECIFIC PAGES SYTLES */
 /*FRONT PAGE STYLES*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003585}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003595}}
 .front #main {
   float: none;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003588}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003598}}
 .front #main #content {
   padding: 0;
   margin: 0 auto;
@@ -588,17 +599,17 @@ span.field-label {
   position: relative;
   height: 690px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003597}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003607}}
 .front #main a {
   color: #4f4e4f;
   font-family: "dk_wayangregular";
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003602}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003612}}
 .front #main .hola-message {
   color: #61565a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003614}}
 .front #main .hola-message .texto-hola {
   font-family: "robotobold";
   font-size: 108px;
@@ -606,7 +617,7 @@ span.field-label {
   font-weight: bold;
   margin-bottom: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003611}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003621}}
 .front #main .hola-message .texto-quien-eres {
   font-family: robotoregular;
   font-weight: lighter;
@@ -614,7 +625,7 @@ span.field-label {
   line-height: 47px;
   margin-bottom: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003618}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003628}}
 .front #main .hola-message .texto-quien-eres .sprite-gray_2px_lin {
   display: block;
   float: left;
@@ -622,7 +633,7 @@ span.field-label {
   margin-right: 0;
   margin-top: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003628}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003638}}
 .front #main .saltar {
   font-size: 22px;
   padding: 10px 0 8px 19px;
@@ -630,33 +641,33 @@ span.field-label {
   position: absolute;
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003637}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003647}}
 .front #main .sprite-gray_2px_lin {
   margin-left: 19px;
   margin-top: 54px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003642}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003652}}
 .front #main .select-company-size {
   display: inline-block;
   font-size: 15px;
   margin-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003648}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003658}}
 .front #main .select-company-size .sprite-gray_2px_lin {
   margin-left: 0;
   margin-top: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003654}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003664}}
 .front #main .open .select-company-size {
   color: #ffba00;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003658}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003668}}
 .front #main #tamanoCliente {
   position: relative;
   width: 100%;
   top: -86px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003664}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003674}}
 .front #main #tamanoCliente .tamano {
   float: left;
   padding: 0;
@@ -667,33 +678,33 @@ span.field-label {
   padding-top: 281px;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003675}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003685}}
 .front #main #tamanoCliente .tamano span.arrow {
   display: inline-block;
   line-height: 31px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003680}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003690}}
 .front #main #tamanoCliente .tamano .nombre {
   text-transform: lowercase;
   font-size: 31px;
   font-weight: bold;
   margin-bottom: 17px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003693}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003703}}
 .front #main #tamanoCliente .tamano.pos-0 {
   margin-top: 95px;
   padding-top: 186px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003698}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003708}}
 .front #main #tamanoCliente .tamano.pos-1 {
   margin-left: 1%;
   padding-right: 1%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003704}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003714}}
 .front #main #tamanoCliente .tamano.pos-2 {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003710}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003720}}
 .front #main #footer {
   text-align: center;
   font-family: "adobe_caslon_proitalic";
@@ -702,104 +713,108 @@ span.field-label {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003723}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003733}}
 .page-node #main {
   margin-top: 35px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003730}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003740}}
 .node-type-cliente #main {
   margin-top: 105px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003735}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003745}}
 .node-type-cliente #testimonios p:first-child {
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003739}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003749}}
 .node-type-cliente #testimonios .field-name-field-cargo,
 .node-type-cliente #testimonios .field-name-field-empresa {
   display: inline-block;
   margin-left: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003743}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003753}}
 .node-type-cliente #testimonios .persona-testimonio:after {
   content: ",";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003746}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003756}}
 .node-type-cliente #testimonios .persona-testimonio:before {
   content: "- ";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003751}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003761}}
 .node-type-cliente .line {
   margin: 31px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003755}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003765}}
 .node-type-cliente .col.double {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003757}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003767}}
 .node-type-cliente .col.double img {
   margin-bottom: 35px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003766}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003776}}
 .section-nuestros-clientes #content #content-body {
   padding-top: 50px;
   min-height: 200px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003776}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003786}}
 .section-el-trabajo .proyectos {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003780}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003790}}
 .section-el-trabajo .proyecto {
-  height: 180px;
+  height: 200px;
   width: 31%;
   position: relative;
   float: left;
   overflow: hidden;
+  margin-bottom: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003787}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003800}}
 .section-el-trabajo .proyecto .contenedor {
   position: absolute;
   top: 0;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003794}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003807}}
 .section-el-trabajo .proyecto .proyecto-imagen {
   width: 100%;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003797}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003810}}
 .section-el-trabajo .proyecto .proyecto-imagen image {
   max-width: 100%;
-  max-height: 180px;
+  max-height: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003803}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003816}}
 .section-el-trabajo .proyecto .proyecto-info {
   padding-top: 2px;
-  width: 100%;
+  width: 98%;
   background: white;
+  padding-left: 2%;
+  height: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003809}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003823}}
 .section-el-trabajo .proyecto .proyecto-info h2 {
   font-size: 15px;
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003814}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003828}}
 .section-el-trabajo .proyecto .proyecto-info .item-list ul {
   font-size: 12px;
   padding: 0;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003819}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003833}}
 .section-el-trabajo .proyecto .proyecto-info .item-list ul li {
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003824}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/pages\.scss}line{font-family:\00003838}}
 .section-el-trabajo .proyecto .proyecto-info a {
   color: #4f4e4f;
   font-weight: bold;
   text-decoration: none;
+  font-size: 12px;
 }

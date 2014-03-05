@@ -51,7 +51,7 @@
   <?php print $page; ?>
   <?php print $page_bottom; ?>
 
-    <?php if($_SERVER['HTTP_HOST'] == 'milpa.local:81' ):?>
+    <?php if($_SERVER['HTTP_HOST'] == 'milpa.local:81' && false ):?>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
     <?php endif; ?>
 </body>

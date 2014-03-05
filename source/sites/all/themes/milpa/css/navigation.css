@@ -68,38 +68,39 @@ li a.active {
   top: 22px;
   width: 180px;
   display: none;
+  z-index: 100;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000383}}
 #block-system-main-menu li ul li {
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000387}}
 #block-system-main-menu li ul a {
   color: #ffba00;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000392}}
 #block-system-main-menu li > a {
   color: #75696d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000395}}
 #block-system-main-menu li a {
   text-decoration: none;
   font-size: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\0000399}}
 #block-system-main-menu li a:hover, #block-system-main-menu li a.active {
   color: #ffba00;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\00003104}}
 #block-system-main-menu li:hover ul {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\00003108}}
 #block-system-main-menu li.last {
   border: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/milpa\/source\/sites\/all\/themes\/milpa\/sass\/navigation\.scss}line{font-family:\00003113}}
 #secondary-menu {
   float: right;
   /* LTR */

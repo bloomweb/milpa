@@ -131,7 +131,7 @@
 
     //Catalogo
     $(function(){
-        var viewPortHeight = 180;
+        var viewPortHeight = 200;
         $.each($(".section-el-trabajo .proyecto img"),function(i,val){
             height = $(val).height();
 
