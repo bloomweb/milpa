@@ -132,20 +132,28 @@
     //Catalogo
     $(function(){
         var viewPortHeight = 200;
+        var i = 0;
         $.each($(".section-el-trabajo .proyecto img"),function(i,val){
-            height = $(val).height();
 
+            testImage = new Image();
+            testImage.src = $(val).attr("src");
+            var $image = $(val);
+            testImage.onload = function(){
+               that=this;
+               var height = that.height;
 
-            if( height > viewPortHeight){
-                $(val).height(viewPortHeight).width("auto");
+                if( height > viewPortHeight){
+                    $image.height(viewPortHeight).width("auto")
+                }else if(height < viewPortHeight){
+                    padding = (viewPortHeight -height)/2;
+                    $image.css({"padding-top":padding,"padding-bottom":padding});
+                }else{ // la imagen mide exactamente 180px
 
-            }else if(height < viewPortHeight){
-                padding = (viewPortHeight -height)/2;
-                $(val).css({"padding-top":padding,"padding-bottom":padding});
+                }
+                console.log(i);
+                i+=1;
+            };
 
-            }else{ // la imagen mide exactamente 180px
-
-            }
 
         });
         topAnimation = viewPortHeight+2;
